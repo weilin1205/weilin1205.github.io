@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>CPE必考一星49題全解 | Weilin's Blog</title><meta name="keywords" content="UVa,CPE,C++"><meta name="author" content="Weilin Wen"><meta name="copyright" content="Weilin Wen"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="編號 題目 題號與解題鏈結    1 Vito’s family (CPE10406, UVA10041)   2 Hashmat the brave warrior (CPE10407, UVA10055)   3 Primary Arithmetic (CPE10404, UVA10035)   4 The 3n + 1 problem (CPE10400, UVA100)   5 Yo">
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>CPE必考一顆星選集49題全詳解 | Weilin's Blog</title><meta name="keywords" content="UVa,CPE,C++"><meta name="author" content="Weilin Wen"><meta name="copyright" content="Weilin Wen"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="關於CPE(Collegiate Programming Examination)簡介 CPE題目主要來自UVA on-line judge網站。 每次CPE考試將至少有一題選自一顆星選集(共49題)。(如下表所示) CPE每年會辦理4次考試，考前須自行上網報名。 報名網址：https:&#x2F;&#x2F;cpe.cse.nsysu.edu.tw&#x2F;cpe&#x2F; 。  考試流程 報到時間：17:30~17:40。完成報">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CPE必考一星49題全解">
+<meta property="og:title" content="CPE必考一顆星選集49題全詳解">
 <meta property="og:url" content="https://weilin1205.github.io/2022/07/28/UVa/CPEbasic/index.html">
 <meta property="og:site_name" content="Weilin&#39;s Blog">
-<meta property="og:description" content="編號 題目 題號與解題鏈結    1 Vito’s family (CPE10406, UVA10041)   2 Hashmat the brave warrior (CPE10407, UVA10055)   3 Primary Arithmetic (CPE10404, UVA10035)   4 The 3n + 1 problem (CPE10400, UVA100)   5 Yo">
+<meta property="og:description" content="關於CPE(Collegiate Programming Examination)簡介 CPE題目主要來自UVA on-line judge網站。 每次CPE考試將至少有一題選自一顆星選集(共49題)。(如下表所示) CPE每年會辦理4次考試，考前須自行上網報名。 報名網址：https:&#x2F;&#x2F;cpe.cse.nsysu.edu.tw&#x2F;cpe&#x2F; 。  考試流程 報到時間：17:30~17:40。完成報">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://weilin1205.github.io/img/banner/background2.png">
 <meta property="article:published_time" content="2022-07-28T13:52:04.000Z">
-<meta property="article:modified_time" content="2022-07-28T18:19:37.239Z">
+<meta property="article:modified_time" content="2022-07-29T05:03:57.333Z">
 <meta property="article:author" content="Weilin Wen">
 <meta property="article:tag" content="UVa">
 <meta property="article:tag" content="CPE">
@@ -50,12 +50,12 @@
   islazyload: false,
   isAnchor: false
 }</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
-  title: 'CPE必考一星49題全解',
+  title: 'CPE必考一顆星選集49題全詳解',
   isPost: true,
   isHome: false,
   isHighlightShrink: false,
-  isToc: false,
-  postUpdate: '2022-07-29 02:19:37'
+  isToc: true,
+  postUpdate: '2022-07-29 13:03:57'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -144,297 +144,325 @@
       }
     }
     detectApple()
-    })(window)</script><svg aria-hidden="true" style="position:absolute; overflow:hidden; width:0; height:0"><symbol id="icon-sun" viewBox="0 0 1024 1024"><path d="M960 512l-128 128v192h-192l-128 128-128-128H192v-192l-128-128 128-128V192h192l128-128 128 128h192v192z" fill="#FFD878" p-id="8420"></path><path d="M736 512a224 224 0 1 0-448 0 224 224 0 1 0 448 0z" fill="#FFE4A9" p-id="8421"></path><path d="M512 109.248L626.752 224H800v173.248L914.752 512 800 626.752V800h-173.248L512 914.752 397.248 800H224v-173.248L109.248 512 224 397.248V224h173.248L512 109.248M512 64l-128 128H192v192l-128 128 128 128v192h192l128 128 128-128h192v-192l128-128-128-128V192h-192l-128-128z" fill="#4D5152" p-id="8422"></path><path d="M512 320c105.888 0 192 86.112 192 192s-86.112 192-192 192-192-86.112-192-192 86.112-192 192-192m0-32a224 224 0 1 0 0 448 224 224 0 0 0 0-448z" fill="#4D5152" p-id="8423"></path></symbol><symbol id="icon-moon" viewBox="0 0 1024 1024"><path d="M611.370667 167.082667a445.013333 445.013333 0 0 1-38.4 161.834666 477.824 477.824 0 0 1-244.736 244.394667 445.141333 445.141333 0 0 1-161.109334 38.058667 85.077333 85.077333 0 0 0-65.066666 135.722666A462.08 462.08 0 1 0 747.093333 102.058667a85.077333 85.077333 0 0 0-135.722666 65.024z" fill="#FFB531" p-id="11345"></path><path d="M329.728 274.133333l35.157333-35.157333a21.333333 21.333333 0 1 0-30.165333-30.165333l-35.157333 35.157333-35.114667-35.157333a21.333333 21.333333 0 0 0-30.165333 30.165333l35.114666 35.157333-35.114666 35.157334a21.333333 21.333333 0 1 0 30.165333 30.165333l35.114667-35.157333 35.157333 35.157333a21.333333 21.333333 0 1 0 30.165333-30.165333z" fill="#030835" p-id="11346"></path></symbol></svg><meta name="generator" content="Hexo 6.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">1</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://weilin1205.github.io/img/banner/background2.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Weilin's Blog</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">CPE必考一星49題全解</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2022-07-28T13:52:04.000Z" title="Created 2022-07-28 21:52:04">2022-07-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2022-07-28T18:19:37.239Z" title="Updated 2022-07-29 02:19:37">2022-07-29</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/UVa/">UVa</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="CPE必考一星49題全解"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><table>
+    })(window)</script><svg aria-hidden="true" style="position:absolute; overflow:hidden; width:0; height:0"><symbol id="icon-sun" viewBox="0 0 1024 1024"><path d="M960 512l-128 128v192h-192l-128 128-128-128H192v-192l-128-128 128-128V192h192l128-128 128 128h192v192z" fill="#FFD878" p-id="8420"></path><path d="M736 512a224 224 0 1 0-448 0 224 224 0 1 0 448 0z" fill="#FFE4A9" p-id="8421"></path><path d="M512 109.248L626.752 224H800v173.248L914.752 512 800 626.752V800h-173.248L512 914.752 397.248 800H224v-173.248L109.248 512 224 397.248V224h173.248L512 109.248M512 64l-128 128H192v192l-128 128 128 128v192h192l128 128 128-128h192v-192l128-128-128-128V192h-192l-128-128z" fill="#4D5152" p-id="8422"></path><path d="M512 320c105.888 0 192 86.112 192 192s-86.112 192-192 192-192-86.112-192-192 86.112-192 192-192m0-32a224 224 0 1 0 0 448 224 224 0 0 0 0-448z" fill="#4D5152" p-id="8423"></path></symbol><symbol id="icon-moon" viewBox="0 0 1024 1024"><path d="M611.370667 167.082667a445.013333 445.013333 0 0 1-38.4 161.834666 477.824 477.824 0 0 1-244.736 244.394667 445.141333 445.141333 0 0 1-161.109334 38.058667 85.077333 85.077333 0 0 0-65.066666 135.722666A462.08 462.08 0 1 0 747.093333 102.058667a85.077333 85.077333 0 0 0-135.722666 65.024z" fill="#FFB531" p-id="11345"></path><path d="M329.728 274.133333l35.157333-35.157333a21.333333 21.333333 0 1 0-30.165333-30.165333l-35.157333 35.157333-35.114667-35.157333a21.333333 21.333333 0 0 0-30.165333 30.165333l35.114666 35.157333-35.114666 35.157334a21.333333 21.333333 0 1 0 30.165333 30.165333l35.114667-35.157333 35.157333 35.157333a21.333333 21.333333 0 1 0 30.165333-30.165333z" fill="#030835" p-id="11346"></path></symbol></svg><meta name="generator" content="Hexo 6.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">1</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://weilin1205.github.io/img/banner/background2.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Weilin's Blog</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">CPE必考一顆星選集49題全詳解</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2022-07-28T13:52:04.000Z" title="Created 2022-07-28 21:52:04">2022-07-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2022-07-29T05:03:57.333Z" title="Updated 2022-07-29 13:03:57">2022-07-29</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/UVa/">UVa</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="CPE必考一顆星選集49題全詳解"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="關於CPE-Collegiate-Programming-Examination"><a href="#關於CPE-Collegiate-Programming-Examination" class="headerlink" title="關於CPE(Collegiate Programming Examination)"></a>關於CPE(Collegiate Programming Examination)</h1><h2 id="簡介"><a href="#簡介" class="headerlink" title="簡介"></a>簡介</h2><ul>
+<li><strong>CPE題目主要來自<a href="">UVA on-line judge網站</a>。</strong></li>
+<li><strong>每次CPE考試將至少有一題選自一顆星選集(共49題)。(如下表所示)</strong></li>
+<li><strong>CPE每年會辦理4次考試，考前須自行上網報名。</strong></li>
+<li><strong>報名網址：<a target="_blank" rel="noopener" href="https://cpe.cse.nsysu.edu.tw/cpe/">https://cpe.cse.nsysu.edu.tw/cpe/</a> 。</strong></li>
+</ul>
+<h2 id="考試流程"><a href="#考試流程" class="headerlink" title="考試流程"></a>考試流程</h2><ol>
+<li>報到時間：17:30~17:40。完成報到後將發予<strong>紙本「考生注意事項」</strong> 一份及 <strong>「PC編號小紙條」</strong> 一張。</li>
+<li>進行考試環境測試：17:40~18:30。(確定電腦狀況以及熟悉系統)</li>
+<li>休息與準備：18:30~18:40。(可在此期間去上廁所)</li>
+<li><strong>正式考試：18:40~21:40。(約3小時)</strong></li>
+<li>19:00 開始查驗考生證件。(將身分證明文件置於桌上即可)</li>
+<li>考生於 19:40 後，始得離場不再考試。(也就是提前交卷)</li>
+<li>考生離場前，請完成填寫「線上考生問卷」，並向監考人員繳交紙本「考生注意事項」及「PC編號小紙條」，即可離場。</li>
+</ol>
+<ul>
+<li>考生於 18:00 後，不得入場。</li>
+<li>手機不得攜帶進考場，手機應關機後，置於自己的書包內。</li>
+<li><strong>試場內僅能攜帶 身分證明文件、筆、紙本考生注意事項、PC編號小紙條</strong> ，其餘物品皆應放置於書包內，並將書包放置於教室前後或外面。</li>
+<li>正式考試期間，如有如廁需求，須舉手取得監考人員同意，並登記後，方可離座如廁。</li>
+</ul>
+<h1 id="CPE必考49題與各題詳解"><a href="#CPE必考49題與各題詳解" class="headerlink" title="CPE必考49題與各題詳解"></a>CPE必考49題與各題詳解</h1><table>
 <thead>
 <tr>
 <th align="center">編號</th>
-<th align="center">題目</th>
-<th align="center">題號與解題鏈結</th>
+<th align="center">題目與原文鏈結</th>
+<th align="center">CPE&#x2F;UVa題號與解題鏈結</th>
 </tr>
 </thead>
 <tbody><tr>
 <td align="center">1</td>
-<td align="center">Vito’s family</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/100/10041.pdf">Vito’s family</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume100/uva10041.cpp">(CPE10406, UVA10041)</a></td>
 </tr>
 <tr>
 <td align="center">2</td>
-<td align="center">Hashmat the brave warrior</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/100/10055.pdf">Hashmat the brave warrior</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume100/uva10055.cpp">(CPE10407, UVA10055)</a></td>
 </tr>
 <tr>
 <td align="center">3</td>
-<td align="center">Primary Arithmetic</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/100/10035.pdf">Primary Arithmetic</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume100/uva10035.cpp">(CPE10404, UVA10035)</a></td>
 </tr>
 <tr>
 <td align="center">4</td>
-<td align="center">The 3n + 1 problem</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/1/100.pdf">The 3n + 1 problem</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume001/uva00100.cpp">(CPE10400, UVA100)</a></td>
 </tr>
 <tr>
 <td align="center">5</td>
-<td align="center">You can say 11</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/109/10929.pdf">You can say 11</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume109/uva10929.cpp">(CPE10460, UVA10929)</a></td>
 </tr>
 <tr>
 <td align="center">6</td>
-<td align="center">Bangla Numbers</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/101/10101.pdf">Bangla Numbers</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume101/uva10101.cpp">(CPE10414, UVA10101)</a></td>
 </tr>
 <tr>
 <td align="center">7</td>
-<td align="center">List of Conquests</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/104/10420.pdf">List of Conquests</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume104/uva10420.cpp">(CPE21924, UVA10420)</a></td>
 </tr>
 <tr>
-<td align="center"></td>
+<td align="center"><strong>概念：</strong></td>
 <td align="center"><strong>字元與字串</strong></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="center">8</td>
-<td align="center">What’s Cryptanalysis?</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/100/10008.pdf">What’s Cryptanalysis?</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume100/uva10008.cpp">(CPE10402, UVA10008)</a></td>
 </tr>
 <tr>
 <td align="center">9</td>
-<td align="center">Decode the Mad man</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/102/10222.pdf">Decode the Mad man</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume102/uva10222.cpp">(CPE10425, UVA10222)</a></td>
 </tr>
 <tr>
 <td align="center">10</td>
-<td align="center">Problem J: Summing Digits</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/113/11332.pdf">Problem J: Summing Digits</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume113/uva11332.cpp">(CPE10473, UVA11332)</a></td>
 </tr>
 <tr>
 <td align="center">11</td>
-<td align="center">Common Permutation</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/102/10252.pdf">Common Permutation</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume102/uva10252.cpp">(CPE10567, UVA10252)</a></td>
 </tr>
 <tr>
 <td align="center">12</td>
-<td align="center">Rotating Sentences</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/4/490.pdf">Rotating Sentences</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume004/uva00490.cpp">(CPE21914, UVA490)</a></td>
 </tr>
 <tr>
 <td align="center">13</td>
-<td align="center">TeX Quotes</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/2/272.pdf">TeX Quotes</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume002/uva00272.cpp">(CPE22131, UVA272)</a></td>
 </tr>
 <tr>
 <td align="center">14</td>
-<td align="center">A - Doom’s Day Algorithm</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/120/12019.pdf">A - Doom’s Day Algorithm</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume120/uva12019.cpp">(CPE22801, UVA12019)</a></td>
 </tr>
 <tr>
 <td align="center">15</td>
-<td align="center">Jolly Jumpers</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/100/10038.pdf">Jolly Jumpers</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume100/uva10038.cpp">(CPE10405, UVA10038)</a></td>
 </tr>
 <tr>
 <td align="center">16</td>
-<td align="center">What is the Probability!!</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/100/10056.pdf">What is the Probability!!</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume100/uva10056.cpp">(CPE10408, UVA10056)</a></td>
 </tr>
 <tr>
 <td align="center">17</td>
-<td align="center">The Hotel with Infinite Rooms</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/101/10170.pdf">The Hotel with Infinite Rooms</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume101/uva10170.cpp">(CPE10417, UVA10170)</a></td>
 </tr>
 <tr>
 <td align="center">18</td>
-<td align="center">498’</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/102/10268.pdf">498’</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume102/uva10268.cpp">(CPE10431, UVA10268)</a></td>
 </tr>
 <tr>
 <td align="center">19</td>
-<td align="center">Odd Sum</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/107/10783.pdf">Odd Sum</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume107/uva10783.cpp">(CPE10453, UVA10783)</a></td>
 </tr>
 <tr>
 <td align="center">20</td>
-<td align="center">Beat the Spread!</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/108/10812.pdf">Beat the Spread!</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume108/uva10812.cpp">(CPE10454, UVA10812)</a></td>
 </tr>
 <tr>
 <td align="center">21</td>
-<td align="center">Symmetric Matrix</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/113/11349.pdf">Symmetric Matrix</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume113/uva11349.cpp">(CPE10478, UVA11349)</a></td>
 </tr>
 <tr>
 <td align="center">22</td>
-<td align="center">Square Numbers</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/114/11461.pdf">Square Numbers</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume114/uva11461.cpp">(CPE10480, UVA11461)</a></td>
 </tr>
 <tr>
 <td align="center">23</td>
-<td align="center">B2-Sequence</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/110/11063.pdf">B2-Sequence</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume110/uva11063.cpp">(CPE23621, UVA11063)</a></td>
 </tr>
 <tr>
 <td align="center">24</td>
-<td align="center">Back to High School Physics</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/100/10071.pdf">Back to High School Physics</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume100/uva10071.cpp">(CPE10411, UVA10071)</a></td>
 </tr>
 <tr>
-<td align="center"></td>
+<td align="center"><strong>概念：</strong></td>
 <td align="center"><strong>進位制轉換</strong></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="center">25</td>
-<td align="center">An Easy Problem!</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/100/10093.pdf">An Easy Problem!</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume100/uva10093.cpp">(CPE10413, UVA10093)</a></td>
 </tr>
 <tr>
 <td align="center">26</td>
-<td align="center">Fibonaccimal Base</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/9/948.pdf">Fibonaccimal Base</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume009/uva00948.cpp">(CPE10401, UVA948)</a></td>
 </tr>
 <tr>
 <td align="center">27</td>
-<td align="center">Funny Encryption Method</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/100/10019.pdf">Funny Encryption Method</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume100/uva10019.cpp">(CPE10403, UVA10019)</a></td>
 </tr>
 <tr>
 <td align="center">28</td>
-<td align="center">Parity</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/109/10931.pdf">Parity</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume109/uva10931.cpp">(CPE10461, UVA10931)</a></td>
 </tr>
 <tr>
 <td align="center">29</td>
-<td align="center">Cheapest Base</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/110/11005.pdf">Cheapest Base</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume110/uva11005.cpp">(CPE10466, UVA11005)</a></td>
 </tr>
 <tr>
-<td align="center"></td>
+<td align="center"><strong>概念：</strong></td>
 <td align="center"><strong>質數、因數與倍數</strong></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="center">30</td>
-<td align="center">Hartals</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/100/10050.pdf">Hartals</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume100/uva10050.cpp">(CPE10517, UVA10050)</a></td>
 </tr>
 <tr>
 <td align="center">31</td>
-<td align="center">All You Need Is Love!</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/101/10193.pdf">All You Need Is Love!</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume101/uva10193.cpp">(CPE10421, UVA10193)</a></td>
 </tr>
 <tr>
 <td align="center">32</td>
-<td align="center">Divide, But Not Quite Conquer!</td>
-<td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume104/uva10419.cpp">(CPE10419, UVA10190)</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/101/10190.pdf">Divide, But Not Quite Conquer!</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume101/uva10190.cpp">(CPE10419, UVA10190)</a></td>
 </tr>
 <tr>
 <td align="center">33</td>
-<td align="center">Simply Emirp</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/102/10235.pdf">Simply Emirp</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume102/uva10235.cpp">(CPE10428, UVA10235)</a></td>
 </tr>
 <tr>
 <td align="center">34</td>
-<td align="center">2 the 9s</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/109/10922.pdf">2 the 9s</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume109/uva10922.cpp">(CPE10458, UVA10922)</a></td>
 </tr>
 <tr>
 <td align="center">35</td>
-<td align="center">GCD</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/114/11417.pdf">GCD</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume114/uva11417.cpp">(CPE11076, UVA11417)</a></td>
 </tr>
 <tr>
-<td align="center"></td>
+<td align="center"><strong>概念：</strong></td>
 <td align="center"><strong>幾何與座標</strong></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="center">36</td>
-<td align="center">Largest Square</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/109/10908.pdf">Largest Square</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume109/uva10908.cpp">(CPE10456, UVA10908)</a></td>
 </tr>
 <tr>
 <td align="center">37</td>
-<td align="center">Satellites</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/102/10221.pdf">Satellites</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume102/uva10221.cpp">(CPE10424, UVA10221)</a></td>
 </tr>
 <tr>
 <td align="center">38</td>
-<td align="center">Can You Solve It?</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/106/10642.pdf">Can You Solve It?</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume106/uva10642.cpp">(CPE10447, UVA10642)</a></td>
 </tr>
 <tr>
 <td align="center">39</td>
-<td align="center">Fourth Point!!</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/102/10242.pdf">Fourth Point!!</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume102/uva10242.cpp">(CPE10566, UVA10242)</a></td>
 </tr>
 <tr>
-<td align="center"></td>
+<td align="center"><strong>概念：</strong></td>
 <td align="center"><strong>排序與中位數</strong></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="center">40</td>
-<td align="center">A mid-summer night’s dream</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/100/10057.pdf">A mid-summer night’s dream</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume100/uva10057.cpp">(CPE10409, UVA10057)</a></td>
 </tr>
 <tr>
 <td align="center">41</td>
-<td align="center">Tell me the frequencies!</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/100/10062.pdf">Tell me the frequencies!</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume100/uva10062.cpp">(CPE10410, UVA10062)</a></td>
 </tr>
 <tr>
 <td align="center">42</td>
-<td align="center">Train Swapping</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/2/299.pdf">Train Swapping</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume002/uva00299.cpp">(CPE22811, UVA299)</a></td>
 </tr>
 <tr>
 <td align="center">43</td>
-<td align="center">Hardwood Species</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/102/10226.pdf">Hardwood Species</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume102/uva10226.cpp">(CPE10426, UVA10226)</a></td>
 </tr>
 <tr>
-<td align="center"></td>
+<td align="center"><strong>概念：</strong></td>
 <td align="center"><strong>模擬</strong></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="center">44</td>
-<td align="center">Minesweeper</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/101/10189.pdf">Minesweeper</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume101/uva10189.cpp">(CPE10418, UVA10189)</a></td>
 </tr>
 <tr>
 <td align="center">45</td>
-<td align="center">Die Game</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/104/10409.pdf">Die Game</a></td>
 <td align="center"><a href="https://weilin1205.github.io/2022/07/28/UVa/10409-DieGame/">(CPE11019, UVA10409)</a></td>
 </tr>
 <tr>
 <td align="center">46</td>
-<td align="center">Eb Alto Saxophone Player</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/104/10415.pdf">Eb Alto Saxophone Player</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume104/uva10415.cpp">(CPE11020, UVA10415)</a></td>
 </tr>
 <tr>
 <td align="center">47</td>
-<td align="center">Mutant Flatworld Explorers</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/1/118.pdf">Mutant Flatworld Explorers</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume001/uva00118.cpp">(CPE23641, UVA118)</a></td>
 </tr>
 <tr>
 <td align="center">48</td>
-<td align="center">Cola</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/111/11150.pdf">Cola</a></td>
 <td align="center"><a target="_blank" rel="noopener" href="https://github.com/weilin1205/UVa_solutions/blob/master/volume111/uva11150.cpp">(CPE11067, UVA11150)</a></td>
 </tr>
 <tr>
-<td align="center"></td>
+<td align="center"><strong>概念：</strong></td>
 <td align="center"><strong>其他</strong></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="center">49</td>
-<td align="center">Sort! Sort!! and Sort!!!</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://onlinejudge.org/external/113/11321.pdf">Sort! Sort!! and Sort!!!</a></td>
 <td align="center"><a href="https://weilin1205.github.io/2022/07/28/UVa/11321-Sort!Sort!!AndSort!!!/">(CPE11069, UVA11321)</a></td>
 </tr>
 </tbody></table>
-<p>題目資料來源：<a target="_blank" rel="noopener" href="https://cpe.cse.nsysu.edu.tw/environment.php">大學程式能力檢定(CPE)官網</a></p>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="https://weilin1205.github.io">Weilin Wen</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://weilin1205.github.io/2022/07/28/UVa/CPEbasic/">https://weilin1205.github.io/2022/07/28/UVa/CPEbasic/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/UVa/">UVa</a><a class="post-meta__tags" href="/tags/CPE/">CPE</a><a class="post-meta__tags" href="/tags/C/">C++</a></div><div class="post_share"><div class="social-share" data-image="https://weilin1205.github.io/img/banner/background2.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/07/28/UVa/11321-Sort!Sort!!AndSort!!!/"><img class="next-cover" src="https://weilin1205.github.io/img/banner/background2.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">UVa-11321 Sort! Sort!! And Sort!!!</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><div><a href="/2022/07/28/UVa/10409-DieGame/" title="UVa-10409 Die Game"><img class="cover" src="https://weilin1205.github.io/img/banner/background2.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-28</div><div class="title">UVa-10409 Die Game</div></div></a></div><div><a href="/2022/07/28/UVa/11321-Sort!Sort!!AndSort!!!/" title="UVa-11321 Sort! Sort!! And Sort!!!"><img class="cover" src="https://weilin1205.github.io/img/banner/background2.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-28</div><div class="title">UVa-11321 Sort! Sort!! And Sort!!!</div></div></a></div><div><a href="/2022/07/27/UVa/12372-PackingforHoliday/" title="UVa-12372-Packing for Holiday"><img class="cover" src="https://weilin1205.github.io/img/banner/background2.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">UVa-12372-Packing for Holiday</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Weilin Wen</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/weilin1205"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/weilin1205" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="/aa0905757908@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">Welcome to My Blog!</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/07/28/UVa/CPEbasic/" title="CPE必考一星49題全解"><img src="https://weilin1205.github.io/img/banner/background2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="CPE必考一星49題全解"/></a><div class="content"><a class="title" href="/2022/07/28/UVa/CPEbasic/" title="CPE必考一星49題全解">CPE必考一星49題全解</a><time datetime="2022-07-28T13:52:04.000Z" title="Created 2022-07-28 21:52:04">2022-07-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/07/28/UVa/11321-Sort!Sort!!AndSort!!!/" title="UVa-11321 Sort! Sort!! And Sort!!!"><img src="https://weilin1205.github.io/img/banner/background2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="UVa-11321 Sort! Sort!! And Sort!!!"/></a><div class="content"><a class="title" href="/2022/07/28/UVa/11321-Sort!Sort!!AndSort!!!/" title="UVa-11321 Sort! Sort!! And Sort!!!">UVa-11321 Sort! Sort!! And Sort!!!</a><time datetime="2022-07-28T04:50:04.000Z" title="Created 2022-07-28 12:50:04">2022-07-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/07/28/UVa/10409-DieGame/" title="UVa-10409 Die Game"><img src="https://weilin1205.github.io/img/banner/background2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="UVa-10409 Die Game"/></a><div class="content"><a class="title" href="/2022/07/28/UVa/10409-DieGame/" title="UVa-10409 Die Game">UVa-10409 Die Game</a><time datetime="2022-07-28T03:50:04.000Z" title="Created 2022-07-28 11:50:04">2022-07-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/07/27/UVa/12372-PackingforHoliday/" title="UVa-12372-Packing for Holiday"><img src="https://weilin1205.github.io/img/banner/background2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="UVa-12372-Packing for Holiday"/></a><div class="content"><a class="title" href="/2022/07/27/UVa/12372-PackingforHoliday/" title="UVa-12372-Packing for Holiday">UVa-12372-Packing for Holiday</a><time datetime="2022-07-27T04:52:04.000Z" title="Created 2022-07-27 12:52:04">2022-07-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/07/27/hello-world/" title="Hello World"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2022/07/27/hello-world/" title="Hello World">Hello World</a><time datetime="2022-07-27T04:17:29.067Z" title="Created 2022-07-27 12:17:29">2022-07-27</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Weilin Wen</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><a class="icon-V hidden" onclick="switchNightMode()" title="Switch Between Light And Dark Mode"><svg width="25" height="25" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon"></use></svg></a><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="chat_btn" type="button" title="Chat"><i class="fas fa-sms"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script src="/js/sun_moon.js" async></script><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="true"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+<h1 id="應試建議與備註"><a href="#應試建議與備註" class="headerlink" title="應試建議與備註"></a>應試建議與備註</h1><ul>
+<li><strong>應試物品：學生證、筆。(非大專學生，請出示貼有相片之身份證、健保卡或駕照)</strong></li>
+<li><strong>紙本「考生注意事項」的背面可做為解題草稿使用，考場不供應其他白紙。</strong></li>
+<li><strong>考題中比較簡單的三道題會被編排為前三題。</strong></li>
+<li><strong>建議考生通過「人工公開測試資料」之後，再進行「正式評判」</strong></li>
+<li><strong>考試使用的系統為<a target="_blank" rel="noopener" href="http://coding-frenzy.arping.me/">「瘋狂程設系統」</a>，考生可以先辦帳號在此練習。</strong></li>
+</ul>
+<p>資料來源：<a target="_blank" rel="noopener" href="https://cpe.cse.nsysu.edu.tw/environment.php">大學程式能力檢定(CPE)官網</a></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="https://weilin1205.github.io">Weilin Wen</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://weilin1205.github.io/2022/07/28/UVa/CPEbasic/">https://weilin1205.github.io/2022/07/28/UVa/CPEbasic/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/UVa/">UVa</a><a class="post-meta__tags" href="/tags/CPE/">CPE</a><a class="post-meta__tags" href="/tags/C/">C++</a></div><div class="post_share"><div class="social-share" data-image="https://weilin1205.github.io/img/banner/background2.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/07/28/UVa/11321-Sort!Sort!!AndSort!!!/"><img class="next-cover" src="https://weilin1205.github.io/img/banner/background2.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">UVa-11321 Sort! Sort!! And Sort!!!</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><div><a href="/2022/07/28/UVa/11321-Sort!Sort!!AndSort!!!/" title="UVa-11321 Sort! Sort!! And Sort!!!"><img class="cover" src="https://weilin1205.github.io/img/banner/background2.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-28</div><div class="title">UVa-11321 Sort! Sort!! And Sort!!!</div></div></a></div><div><a href="/2022/07/28/UVa/10409-DieGame/" title="UVa-10409 Die Game"><img class="cover" src="https://weilin1205.github.io/img/banner/background2.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-28</div><div class="title">UVa-10409 Die Game</div></div></a></div><div><a href="/2022/07/27/UVa/12372-PackingforHoliday/" title="UVa-12372-Packing for Holiday"><img class="cover" src="https://weilin1205.github.io/img/banner/background2.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-27</div><div class="title">UVa-12372-Packing for Holiday</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Weilin Wen</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/weilin1205"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/weilin1205" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="/aa0905757908@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">Welcome to My Blog!</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%97%9C%E6%96%BCCPE-Collegiate-Programming-Examination"><span class="toc-number">1.</span> <span class="toc-text">關於CPE(Collegiate Programming Examination)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B0%A1%E4%BB%8B"><span class="toc-number">1.1.</span> <span class="toc-text">簡介</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%80%83%E8%A9%A6%E6%B5%81%E7%A8%8B"><span class="toc-number">1.2.</span> <span class="toc-text">考試流程</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#CPE%E5%BF%85%E8%80%8349%E9%A1%8C%E8%88%87%E5%90%84%E9%A1%8C%E8%A9%B3%E8%A7%A3"><span class="toc-number">2.</span> <span class="toc-text">CPE必考49題與各題詳解</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%87%89%E8%A9%A6%E5%BB%BA%E8%AD%B0%E8%88%87%E5%82%99%E8%A8%BB"><span class="toc-number">3.</span> <span class="toc-text">應試建議與備註</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/07/28/UVa/CPEbasic/" title="CPE必考一顆星選集49題全詳解"><img src="https://weilin1205.github.io/img/banner/background2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="CPE必考一顆星選集49題全詳解"/></a><div class="content"><a class="title" href="/2022/07/28/UVa/CPEbasic/" title="CPE必考一顆星選集49題全詳解">CPE必考一顆星選集49題全詳解</a><time datetime="2022-07-28T13:52:04.000Z" title="Created 2022-07-28 21:52:04">2022-07-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/07/28/UVa/11321-Sort!Sort!!AndSort!!!/" title="UVa-11321 Sort! Sort!! And Sort!!!"><img src="https://weilin1205.github.io/img/banner/background2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="UVa-11321 Sort! Sort!! And Sort!!!"/></a><div class="content"><a class="title" href="/2022/07/28/UVa/11321-Sort!Sort!!AndSort!!!/" title="UVa-11321 Sort! Sort!! And Sort!!!">UVa-11321 Sort! Sort!! And Sort!!!</a><time datetime="2022-07-28T04:50:04.000Z" title="Created 2022-07-28 12:50:04">2022-07-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/07/28/UVa/10409-DieGame/" title="UVa-10409 Die Game"><img src="https://weilin1205.github.io/img/banner/background2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="UVa-10409 Die Game"/></a><div class="content"><a class="title" href="/2022/07/28/UVa/10409-DieGame/" title="UVa-10409 Die Game">UVa-10409 Die Game</a><time datetime="2022-07-28T03:50:04.000Z" title="Created 2022-07-28 11:50:04">2022-07-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/07/27/UVa/12372-PackingforHoliday/" title="UVa-12372-Packing for Holiday"><img src="https://weilin1205.github.io/img/banner/background2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="UVa-12372-Packing for Holiday"/></a><div class="content"><a class="title" href="/2022/07/27/UVa/12372-PackingforHoliday/" title="UVa-12372-Packing for Holiday">UVa-12372-Packing for Holiday</a><time datetime="2022-07-27T04:52:04.000Z" title="Created 2022-07-27 12:52:04">2022-07-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/07/27/hello-world/" title="Hello World"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2022/07/27/hello-world/" title="Hello World">Hello World</a><time datetime="2022-07-27T04:17:29.067Z" title="Created 2022-07-27 12:17:29">2022-07-27</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Weilin Wen</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><a class="icon-V hidden" onclick="switchNightMode()" title="Switch Between Light And Dark Mode"><svg width="25" height="25" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon"></use></svg></a><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="chat_btn" type="button" title="Chat"><i class="fas fa-sms"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script src="/js/sun_moon.js" async></script><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="true"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
 POWERMODE.shake = true;
 POWERMODE.mobile = false;
 document.body.addEventListener('input', POWERMODE);
