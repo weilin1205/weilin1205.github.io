@@ -59,27 +59,6 @@
   </entry>
   
   <entry>
-    <title>LeetCode 198 - House Robber</title>
-    <link href="https://weilin1205.github.io/posts/LeetCode-198-House-Robber.html"/>
-    <id>https://weilin1205.github.io/posts/LeetCode-198-House-Robber.html</id>
-    <published>2023-09-30T04:12:05.000Z</published>
-    <updated>2024-01-23T17:31:59.586Z</updated>
-    
-    <content type="html"><![CDATA[<div class="note info flat"><p>Problem: <a href="https://leetcode.com/problems/house-robber/description/">https://leetcode.com/problems/house-robber/description/</a></p></div><h2 id="Accepted-Code">Accepted Code</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">rob</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; nums)</span> </span>&#123;</span><br><span class="line">        <span class="type">int</span> n=nums.<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">if</span>(n==<span class="number">1</span>) <span class="keyword">return</span> nums[<span class="number">0</span>];</span><br><span class="line"></span><br><span class="line">        <span class="comment">// dp[i] = max(dp[i-1], dp[i-2]+nums[i])</span></span><br><span class="line">        <span class="comment">// 1： dp[i-1] 表示強盜不搶當前房屋，但確定是他會搶前i-1那間房屋</span></span><br><span class="line">        <span class="comment">// 2： dp[i-2]+nums[i] 表示搶劫當前房屋+ 掠奪之前房屋的物品</span></span><br><span class="line">        <span class="type">int</span> dp[<span class="number">1000</span>];</span><br><span class="line">        dp[<span class="number">0</span>]=nums[<span class="number">0</span>];</span><br><span class="line">        dp[<span class="number">1</span>]=<span class="built_in">max</span>(nums[<span class="number">0</span>],nums[<span class="number">1</span>]);</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">2</span>;i&lt;n;i++) &#123;</span><br><span class="line">            dp[i]=<span class="built_in">max</span>(dp[i<span class="number">-1</span>],dp[i<span class="number">-2</span>]+nums[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> dp[n<span class="number">-1</span>];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">🚩LeetCode 198 - House Robber Accepted Solutions</summary>
-    
-    
-    
-    <category term="LeetCode" scheme="https://weilin1205.github.io/categories/LeetCode/"/>
-    
-    
-    <category term="LeetCode" scheme="https://weilin1205.github.io/tags/LeetCode/"/>
-    
-  </entry>
-  
-  <entry>
     <title>LeetCode 74 - Search a 2D Matrix</title>
     <link href="https://weilin1205.github.io/posts/LeetCode-74-Search-a-2D-Matrix.html"/>
     <id>https://weilin1205.github.io/posts/LeetCode-74-Search-a-2D-Matrix.html</id>
@@ -111,6 +90,27 @@
     
     
     <summary type="html">🚩LeetCode 931 - Minimum Falling Path Sum Accepted Solutions</summary>
+    
+    
+    
+    <category term="LeetCode" scheme="https://weilin1205.github.io/categories/LeetCode/"/>
+    
+    
+    <category term="LeetCode" scheme="https://weilin1205.github.io/tags/LeetCode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LeetCode 198 - House Robber</title>
+    <link href="https://weilin1205.github.io/posts/LeetCode-198-House-Robber.html"/>
+    <id>https://weilin1205.github.io/posts/LeetCode-198-House-Robber.html</id>
+    <published>2023-09-30T04:12:05.000Z</published>
+    <updated>2024-01-23T17:31:59.586Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info flat"><p>Problem: <a href="https://leetcode.com/problems/house-robber/description/">https://leetcode.com/problems/house-robber/description/</a></p></div><h2 id="Accepted-Code">Accepted Code</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">rob</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; nums)</span> </span>&#123;</span><br><span class="line">        <span class="type">int</span> n=nums.<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">if</span>(n==<span class="number">1</span>) <span class="keyword">return</span> nums[<span class="number">0</span>];</span><br><span class="line"></span><br><span class="line">        <span class="comment">// dp[i] = max(dp[i-1], dp[i-2]+nums[i])</span></span><br><span class="line">        <span class="comment">// 1： dp[i-1] 表示強盜不搶當前房屋，但確定是他會搶前i-1那間房屋</span></span><br><span class="line">        <span class="comment">// 2： dp[i-2]+nums[i] 表示搶劫當前房屋+ 掠奪之前房屋的物品</span></span><br><span class="line">        <span class="type">int</span> dp[<span class="number">1000</span>];</span><br><span class="line">        dp[<span class="number">0</span>]=nums[<span class="number">0</span>];</span><br><span class="line">        dp[<span class="number">1</span>]=<span class="built_in">max</span>(nums[<span class="number">0</span>],nums[<span class="number">1</span>]);</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">2</span>;i&lt;n;i++) &#123;</span><br><span class="line">            dp[i]=<span class="built_in">max</span>(dp[i<span class="number">-1</span>],dp[i<span class="number">-2</span>]+nums[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> dp[n<span class="number">-1</span>];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">🚩LeetCode 198 - House Robber Accepted Solutions</summary>
     
     
     

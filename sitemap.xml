@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://weilin1205.github.io/site/time/index.html</loc>
+    <loc>https://weilin1205.github.io/life/games/catch-the-cat/index.html</loc>
     
     <lastmod>2024-01-23</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/life/games/catch-the-cat/index.html</loc>
+    <loc>https://weilin1205.github.io/site/time/index.html</loc>
     
     <lastmod>2024-01-23</lastmod>
     
@@ -423,20 +423,6 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/tags/LeetCode/</loc>
-    <lastmod>2024-01-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/tags/Markdown/</loc>
-    <lastmod>2024-01-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://weilin1205.github.io/tags/UVa/</loc>
     <lastmod>2024-01-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -445,6 +431,13 @@
   
   <url>
     <loc>https://weilin1205.github.io/tags/CPE/</loc>
+    <lastmod>2024-01-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/tags/Markdown/</loc>
     <lastmod>2024-01-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -485,6 +478,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://weilin1205.github.io/tags/LeetCode/</loc>
+    <lastmod>2024-01-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -495,7 +495,7 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/categories/LeetCode/</loc>
+    <loc>https://weilin1205.github.io/categories/UVa/</loc>
     <lastmod>2024-01-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -503,13 +503,6 @@
   
   <url>
     <loc>https://weilin1205.github.io/categories/Life/</loc>
-    <lastmod>2024-01-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/categories/UVa/</loc>
     <lastmod>2024-01-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -524,6 +517,13 @@
   
   <url>
     <loc>https://weilin1205.github.io/categories/UsefulTools/</loc>
+    <lastmod>2024-01-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/categories/LeetCode/</loc>
     <lastmod>2024-01-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
