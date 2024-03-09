@@ -3425,8 +3425,7 @@ function createWinbox() {
             </details>
 
 <br>
-<div class="note warning modern"><p>本站為非商業、非盈利性質的網站，僅限用於個人學習交流，無商業使用，如圖片或字體有侵權，請立即聯繫本站刪除，謝謝！<br>
-This website operates on a non-commercial and non-profit basis, serving exclusively for personal learning and communication purposes. In the event of any infringement related to images or fonts, we kindly request that you promptly contact us for removal. Thank you!</p>
+<div class="note warning modern"><p>本站為非商業、非盈利性質的網站，僅限用於個人學習交流，無商業使用，如圖片或字體有侵權，請立即聯繫本站刪除，謝謝！<br>This website operates on a non-commercial and non-profit basis, serving exclusively for personal learning and communication purposes. In the event of any infringement related to images or fonts, we kindly request that you promptly contact us for removal. Thank you!</p>
 </div>
 <center><div style="font-size:1.2em;color:var(--theme-color);font-weight:bold;">------ ( •̀ ω •́ )y 到底啦 ------</div></center>
 <br>
@@ -3508,3 +3507,38 @@ function toggleWinbox() {
 }
 
 /* 美化模块 end */
+
+/* 側邊正妹輪播圖 start */
+// 播放||暂定||換一個 影片
+function linkTo() {
+  const videoDom = document.getElementById("girl-video");
+  const u_ = "https://www.cunshao.com/666666/api/web.php";
+
+  if (videoDom) {
+    $(".girl_btn_fuck").on("click", function() {
+      if (videoDom.paused) {
+        videoDom.play();
+        $(this)[0].innerText = "暫停";
+      } else {
+        videoDom.pause();
+        $(this)[0].innerText = "播放";
+      }
+    });
+
+    $(".girl_btn_next").on("click", function() {
+      videoDom.src = u_;
+      videoDom.play();
+    });
+
+    videoDom.addEventListener("ended", function(event) {
+      videoDom.src = u_;
+      videoDom.play();
+    });
+  }
+}
+
+// 在頁面加載完成後執行 linkTo 函數
+$(document).ready(function() {
+  linkTo();
+});
+/* 側邊正妹輪播圖 end */

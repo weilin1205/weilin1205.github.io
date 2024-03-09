@@ -9414,6 +9414,66 @@ hr:before {
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
   left: 0 !important;
 }
+
+/* -------------------------------------------------------------------------- */
+/*            ---- card_girl 側邊欄正妹輪播圖  ---- START                       */
+/* -------------------------------------------------------------------------- */
+.girl {
+  margin-top: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  box-shadow: 0 10px 13px rgb(31 45 61 / 10%), 0 0 0 -1px rgb(32 160 255 / 20%), 0 0 0 -25px rgb(32 160 255 / 30%);
+  background: #fff;
+}
+
+.girl video {
+  width: 100%;
+  border-radius: 5px;
+  transform: translateZ(0);
+  will-change: scroll-position;
+}
+
+.girl video:hover {
+  box-shadow: none !important;
+}
+
+.girl_btn_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.girl_btn_box>div {
+  width: 45%;
+  padding: 4px 0;
+  /* background: #f95491; */
+  background: var(--theme-color);
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+[data-theme="dark"] .girl_btn_box>div {
+  background-color: var(--btn-bg);
+  color: var(--btn-color);
+}
+
+[data-theme="dark"] .girl_btn_box>div:hover {
+  background-color: var(--theme-color);
+  color: white;
+}
+
+/* -------------------------------------------------------------------------- */
+/*            ---- card_girl 側邊欄正妹輪播圖  ---- end                         */
+/* -------------------------------------------------------------------------- */
 .search-dialog {
   position: fixed;
   top: 10%;
