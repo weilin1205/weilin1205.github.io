@@ -2866,6 +2866,7 @@ function clearItem() {
   localStorage.removeItem('mouse');
   localStorage.removeItem('light');
   localStorage.removeItem('snow');
+  localStorage.removeItem('girl-card');
 }
 
 
@@ -3328,6 +3329,10 @@ function createWinbox() {
   <div class="content-text" style="font-weight:bold; padding-left:20px"> 雪花特效 (白天模式) </div><input type="checkbox" id="snowSet" onclick="setSnow()">
 </div>
 
+<div class="content" style="display:flex">
+  <div class="content-text" style="font-weight:bold; padding-left:10px"> 美女接力 (於側邊欄) </div><input type="checkbox" id="girl-cardSet" onclick="toggleGirlCard()">
+</div>
+
 <h2>二、主題色設置 - ThemeColor Settings</h2>
 <div class="content" style="display:flex;padding-left:12px"><input type="radio" id="red" name="colors" value=" "
         onclick="setColor('red')"><input type="radio" id="orange" name="colors" value=" "
@@ -3507,6 +3512,21 @@ function toggleWinbox() {
   };
 }
 
+// 正妹輪播圖開關
+if (localStorage.getItem("girl-card") == undefined) {
+  localStorage.setItem("girl-card", "none");  // 默認關閉是none，默認顯示是block
+}
+document.querySelector(".girl.card-widget").style.display = localStorage.getItem("girl-card");
+
+function toggleGirlCard() {
+  if (document.getElementById("girl-cardSet").checked) {
+    localStorage.setItem("girl-card", "block");
+    document.querySelector(".girl.card-widget").style.display = "block";
+  } else {
+    localStorage.setItem("girl-card", "none");
+    document.querySelector(".girl.card-widget").style.display = "none";
+  }
+}
 /* 美化模块 end */
 
 /* 側邊正妹輪播圖 start */
