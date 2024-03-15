@@ -3330,7 +3330,7 @@ function createWinbox() {
 </div>
 
 <div class="content" style="display:flex">
-  <div class="content-text" style="font-weight:bold; padding-left:10px"> 美女接力 (於側邊欄) </div><input type="checkbox" id="girl-cardSet" onclick="toggleGirlCard()">
+  <div class="content-text" style="font-weight:bold; padding-left:10px"> 正妹串流 (於側邊欄) </div><input type="checkbox" id="girl-cardSet" onclick="toggleGirlCard()">
 </div>
 
 <h2>二、主題色設置 - ThemeColor Settings</h2>
@@ -3352,13 +3352,13 @@ function createWinbox() {
 
 <h2>三、字體設置 - Font Settings</h2>
 <p id="swfs">
-<a class="swf" id="swf_ZhuZiAWan" href="javascript:;" rel="noopener external nofollow" style="font-family:'ZhuZiAWan'!important;color:black" onclick="setFont('ZhuZiAWan')">筑紫A丸标准体2.0</a>
-<a class="swf" id="swf_HYTMR" href="javascript:;" rel="noopener external nofollow" style="font-family:'HYTMR'!important;color:black" onclick="setFont('HYTMR')">汉仪唐美人</a>
-<a class="swf" id="swf_LXGW" href="javascript:;" rel="noopener external nofollow" style="font-family:'LXGW'!important;color:black" onclick="setFont('LXGW')">霞鹜文楷</a>
-<a class="swf" id="swf_TTQHB" href="javascript:;" rel="noopener external nofollow" style="font-family:'TTQHB'!important;color:black" onclick="setFont('TTQHB')">甜甜圈海报</a>
-<a class="swf" id="swf_YSHST" href="javascript:;" rel="noopener external nofollow" style="font-family:'YSHST'!important;color:black" onclick="setFont('YSHST')">优设好身体</a>
+<a class="swf" id="swf_ZhuZiAWan" href="javascript:;" rel="noopener external nofollow" style="font-family:'ZhuZiAWan'!important;color:black" onclick="setFont('ZhuZiAWan')">築紫A丸標準體2.0</a>
+<a class="swf" id="swf_HYTMR" href="javascript:;" rel="noopener external nofollow" style="font-family:'HYTMR'!important;color:black" onclick="setFont('HYTMR')">漢儀唐美人</a>
+<a class="swf" id="swf_LXGW" href="javascript:;" rel="noopener external nofollow" style="font-family:'LXGW'!important;color:black" onclick="setFont('LXGW')">霞鷸文楷</a>
+<a class="swf" id="swf_TTQHB" href="javascript:;" rel="noopener external nofollow" style="font-family:'TTQHB'!important;color:black" onclick="setFont('TTQHB')">甜甜圈海報</a>
+<a class="swf" id="swf_YSHST" href="javascript:;" rel="noopener external nofollow" style="font-family:'YSHST'!important;color:black" onclick="setFont('YSHST')">優設好身體</a>
 <a class="swf" id="swf_MiSans" href="javascript:;" rel="noopener external nofollow" style="font-family:'MiSans'!important;color:black" onclick="setFont('MiSans')">MiSans</a>
-<a class="swf" id="swf_default" href="javascript:;" rel="noopener external nofollow" style="font-family:-apple-system, IBM Plex Mono ,monosapce,'微软雅黑', sans-serif;!important;color:black" onclick="setFont('default')">系统默认</a>
+<a class="swf" id="swf_default" href="javascript:;" rel="noopener external nofollow" style="font-family:-apple-system, IBM Plex Mono ,monosapce,'微软雅黑', sans-serif;!important;color:black" onclick="setFont('default')">系統默認</a>
 </p>
 
 <h2>四、背景設置 - Background Settings</h2>
@@ -3475,21 +3475,26 @@ This website operates on a non-commercial and non-profit basis, serving exclusiv
   } else if (localStorage.getItem("snow") == "none") {
     document.getElementById("snowSet").checked = false;
   }
+  if (localStorage.getItem("girl-card") == "block") {
+    document.getElementById("girl-cardSet").checked = true;
+  } else if (localStorage.getItem("girl-card") == "none") {
+    document.getElementById("girl-cardSet").checked = false;
+  }
 }
 
-// 恢复默认背景
+// 恢復默認背景
 function resetBg() {
   localStorage.removeItem('blogbg');
   reload();
 }
 
-// 恢复默认设置并刷新页面
+// 恢復默認設置並刷新頁面
 function reset() {
   clearItem();
   reload();
 }
 
-// 适应窗口大小
+// 適應窗口大小
 function winResize() {
   try {
     var offsetWid = document.documentElement.clientWidth;
