@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://weilin1205.github.io/life/music/index.html</loc>
+    
+    <lastmod>2024-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/life/movies/index.html</loc>
+    
+    <lastmod>2024-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://weilin1205.github.io/social/link/index.html</loc>
     
     <lastmod>2024-03-16</lastmod>
@@ -131,15 +149,6 @@
     <loc>https://weilin1205.github.io/posts/UVa-11321-Sort!-Sort!!-And-Sort!!!.html</loc>
     
     <lastmod>2024-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/life/movies/index.html</loc>
-    
-    <lastmod>2024-03-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -371,15 +380,6 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/life/music/index.html</loc>
-    
-    <lastmod>2024-01-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://weilin1205.github.io/categories/index.html</loc>
     
     <lastmod>2024-01-20</lastmod>
@@ -455,6 +455,20 @@
   </url>
   
   <url>
+    <loc>https://weilin1205.github.io/tags/Anaconda/</loc>
+    <lastmod>2024-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/tags/UsefulTools/</loc>
+    <lastmod>2024-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://weilin1205.github.io/tags/UVa/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -484,20 +498,6 @@
   
   <url>
     <loc>https://weilin1205.github.io/tags/Greedy/</loc>
-    <lastmod>2024-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/tags/Anaconda/</loc>
-    <lastmod>2024-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/tags/UsefulTools/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -534,13 +534,6 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/categories/UVa/</loc>
-    <lastmod>2024-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://weilin1205.github.io/categories/Anaconda/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -549,6 +542,13 @@
   
   <url>
     <loc>https://weilin1205.github.io/categories/UsefulTools/</loc>
+    <lastmod>2024-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/categories/UVa/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
