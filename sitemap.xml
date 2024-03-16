@@ -432,13 +432,6 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/tags/LeetCode/</loc>
-    <lastmod>2024-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://weilin1205.github.io/tags/Markdown/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -446,7 +439,7 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/tags/Hexo/</loc>
+    <loc>https://weilin1205.github.io/tags/LeetCode/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -494,17 +487,17 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://weilin1205.github.io/categories/Algorithm/</loc>
+    <loc>https://weilin1205.github.io/tags/Hexo/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
+
+  
   <url>
-    <loc>https://weilin1205.github.io/categories/LeetCode/</loc>
+    <loc>https://weilin1205.github.io/categories/Algorithm/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -518,7 +511,7 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/categories/HexoTutorial/</loc>
+    <loc>https://weilin1205.github.io/categories/LeetCode/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -533,6 +526,13 @@
   
   <url>
     <loc>https://weilin1205.github.io/categories/UVa/</loc>
+    <lastmod>2024-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/categories/HexoTutorial/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
