@@ -6541,7 +6541,7 @@ h1.post-title {
 center#name-container {
   position: absolute !important;
   width: fit-content !important;
-  left: 42% !important;
+  left: 40% !important;
   /* transform: translateX(-50%) !important; */
   /* transform: translateY(-100%) !important; */
 }
