@@ -2,16 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://weilin1205.github.io/life/games/index.html</loc>
-    
-    <lastmod>2024-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/life/music/index.html</loc>
+    <loc>https://weilin1205.github.io/site/census/index.html</loc>
     
     <lastmod>2024-03-16</lastmod>
     
@@ -30,6 +21,42 @@
   
   <url>
     <loc>https://weilin1205.github.io/social/link/index.html</loc>
+    
+    <lastmod>2024-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/box/gallery/index.html</loc>
+    
+    <lastmod>2024-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/box/nav/index.html</loc>
+    
+    <lastmod>2024-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/life/games/index.html</loc>
+    
+    <lastmod>2024-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/life/music/index.html</loc>
     
     <lastmod>2024-03-16</lastmod>
     
@@ -344,34 +371,7 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/box/nav/index.html</loc>
-    
-    <lastmod>2024-01-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/box/gallery/index.html</loc>
-    
-    <lastmod>2024-01-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://weilin1205.github.io/personal/bb/index.html</loc>
-    
-    <lastmod>2024-01-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/site/census/index.html</loc>
     
     <lastmod>2024-01-21</lastmod>
     
@@ -455,27 +455,6 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/tags/Anaconda/</loc>
-    <lastmod>2024-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/tags/UsefulTools/</loc>
-    <lastmod>2024-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/tags/Hexo/</loc>
-    <lastmod>2024-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://weilin1205.github.io/tags/UVa/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -510,6 +489,27 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://weilin1205.github.io/tags/UsefulTools/</loc>
+    <lastmod>2024-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/tags/Hexo/</loc>
+    <lastmod>2024-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/tags/Anaconda/</loc>
+    <lastmod>2024-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -534,7 +534,7 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/categories/Anaconda/</loc>
+    <loc>https://weilin1205.github.io/categories/UVa/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -555,7 +555,7 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/categories/UVa/</loc>
+    <loc>https://weilin1205.github.io/categories/Anaconda/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
