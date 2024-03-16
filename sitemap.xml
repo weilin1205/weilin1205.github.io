@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://weilin1205.github.io/personal/about/index.html</loc>
+    
+    <lastmod>2024-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://weilin1205.github.io/posts/UVa-11934-Magic-Formula.html</loc>
     
     <lastmod>2024-03-16</lastmod>
@@ -308,15 +317,6 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/personal/about/index.html</loc>
-    
-    <lastmod>2024-01-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://weilin1205.github.io/box/nav/index.html</loc>
     
     <lastmod>2024-01-21</lastmod>
@@ -441,13 +441,6 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/tags/LeetCode/</loc>
-    <lastmod>2024-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://weilin1205.github.io/tags/Markdown/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -456,6 +449,20 @@
   
   <url>
     <loc>https://weilin1205.github.io/tags/Anaconda/</loc>
+    <lastmod>2024-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/tags/LeetCode/</loc>
+    <lastmod>2024-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/tags/UsefulTools/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -497,13 +504,6 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/tags/UsefulTools/</loc>
-    <lastmod>2024-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://weilin1205.github.io/tags/Hexo/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -520,7 +520,7 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/categories/Life/</loc>
+    <loc>https://weilin1205.github.io/categories/Anaconda/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -534,7 +534,7 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/categories/Anaconda/</loc>
+    <loc>https://weilin1205.github.io/categories/UsefulTools/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -548,14 +548,14 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/categories/UsefulTools/</loc>
+    <loc>https://weilin1205.github.io/categories/HexoTutorial/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/categories/HexoTutorial/</loc>
+    <loc>https://weilin1205.github.io/categories/Life/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
