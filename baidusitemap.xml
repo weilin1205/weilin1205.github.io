@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://weilin1205.github.io/posts/markdownhexo.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://weilin1205.github.io/posts/UVa-10041-Vitos-Family.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://weilin1205.github.io/posts/LeetCode-63-Unique-Paths-II.html</loc>
+    <lastmod>2024-03-18</lastmod>
+  </url>
+  <url>
     <loc>https://weilin1205.github.io/posts/Selected-Inspirational-Quotes.html</loc>
     <lastmod>2024-03-16</lastmod>
   </url>
@@ -30,10 +42,6 @@
   </url>
   <url>
     <loc>https://weilin1205.github.io/posts/UVa-10055-Hashmat-the-brave-warrior.html</loc>
-    <lastmod>2024-03-16</lastmod>
-  </url>
-  <url>
-    <loc>https://weilin1205.github.io/posts/UVa-10041-Vitos-Family.html</loc>
     <lastmod>2024-03-16</lastmod>
   </url>
   <url>
@@ -77,19 +85,11 @@
     <lastmod>2024-01-23</lastmod>
   </url>
   <url>
-    <loc>https://weilin1205.github.io/posts/LeetCode-63-Unique-Paths-II.html</loc>
-    <lastmod>2024-01-23</lastmod>
-  </url>
-  <url>
     <loc>https://weilin1205.github.io/posts/LeetCode-13-Roman-to-Integer.html</loc>
     <lastmod>2024-01-23</lastmod>
   </url>
   <url>
     <loc>https://weilin1205.github.io/posts/LeetCode-9-Palindrome-Number.html</loc>
-    <lastmod>2024-01-23</lastmod>
-  </url>
-  <url>
-    <loc>https://weilin1205.github.io/posts/markdownhexo.html</loc>
     <lastmod>2024-01-23</lastmod>
   </url>
   <url>
@@ -111,6 +111,10 @@
   <url>
     <loc>https://weilin1205.github.io/posts/CPEsolutions.html</loc>
     <lastmod>2024-01-17</lastmod>
+  </url>
+  <url>
+    <loc>https://weilin1205.github.io/posts/linuxpython.html</loc>
+    <lastmod>2023-12-31</lastmod>
   </url>
   <url>
     <loc>https://weilin1205.github.io/posts/setconda.html</loc>
