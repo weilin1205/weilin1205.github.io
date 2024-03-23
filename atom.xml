@@ -6,7 +6,7 @@
   <link href="https://weilin1205.github.io/atom.xml" rel="self"/>
   
   <link href="https://weilin1205.github.io/"/>
-  <updated>2024-03-20T16:47:33.446Z</updated>
+  <updated>2024-03-20T20:42:17.001Z</updated>
   <id>https://weilin1205.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://weilin1205.github.io/posts/ASVD.html"/>
     <id>https://weilin1205.github.io/posts/ASVD.html</id>
     <published>2024-03-20T04:55:04.000Z</published>
-    <updated>2024-03-20T16:47:33.446Z</updated>
+    <updated>2024-03-20T20:42:17.001Z</updated>
     
     <content type="html"><![CDATA[<h1>ASVD: Activation-aware Singular Value Decomposition for Compressing Large Language Models</h1><div class="note info flat"><p>Github Link: <a href="https://github.com/hahnyuan/ASVD4LLM">https://github.com/hahnyuan/ASVD4LLM</a><br>Paper Link: <a href="https://arxiv.org/abs/2312.05821">https://arxiv.org/abs/2312.05821</a></p></div><h2 id="Requirement">Requirement</h2><ul><li>python&gt;=3.10</li><li>pip install -r requirements.txt</li><li>create an output folder in the main directory and create a result.txt file within it.</li></ul><h2 id="請連學長從以下開始閱讀，謝謝。">請連學長從以下開始閱讀，謝謝。</h2><ul><li>Step 0: 於 onedrive 下載 <code>ASVD4LLM-main</code></li><li>Step 1: 確定 <code>python&gt;=3.10</code></li><li>Step 2:</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install -r requirements.txt</span><br></pre></td></tr></table></figure><ul><li>Step 3: 開始測試，測試完以後的數據會跑進 <code>output</code> 資料夾下的 <code>result.txt</code> 內。</li></ul><ol><li>(Case 1) 測 facebook/opt-125m :</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">CUDA_VISIBLE_DEVICES=<span class="string">&#x27;0&#x27;</span> python3 asvd.py --model_id=<span class="string">&quot;facebook/opt-125m&quot;</span> --act_aware --alpha 0.5 --n_calib_samples 16 --scaling_method abs_mean --ppl_target 40 --use_cache</span><br></pre></td></tr></table></figure><ol start="2"><li>(Case 2) 測 facebook/opt-125m :</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">CUDA_VISIBLE_DEVICES=<span class="string">&#x27;0&#x27;</span> python3 asvd.py --model_id=<span class="string">&quot;facebook/opt-125m&quot;</span> --act_aware --alpha 1 --n_calib_samples 16 --scaling_method abs_mean --param_ratio_target 0.9 --use_cache</span><br></pre></td></tr></table></figure><ol start="3"><li>(Case 3) 測 Llama-2-7b-hf :</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">CUDA_VISIBLE_DEVICES=<span class="string">&#x27;cuda:0&#x27;</span> python asvd.py --model_id=<span class="string">&quot;meta-llama/Llama-2-7b-hf&quot;</span> --act_aware --alpha 0.5 --n_calib_samples 32 --scaling_method abs_mean --param_ratio_target 0.9 --use_cache</span><br></pre></td></tr></table></figure><div class="note warning flat"><p>目前在 VACS 中測試 Case1、2的 facebook/opt-125m 有成功，但測試 Case3的 meta-llama/Llama-2-7b-hf 會失敗，<br>我目前有把原本指令的 <code>CUDA_VISIBLE_DEVICES='0'</code> 改成 <code>CUDA_VISIBLE_DEVICES='cuda:0'</code> 有幫助，<br>但接下來就卡住了，尚未確定問題如何解決，請學長幫我們看一下，謝謝。</p></div>]]></content>
     
