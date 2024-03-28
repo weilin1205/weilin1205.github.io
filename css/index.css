@@ -6861,10 +6861,10 @@ div#archive {
 
 /* 右下角闭眼 */
 .el-textarea__inner {
-  background-image: url(/assets/ACG_comment.jpg) !important;
+  background-image: url(/assets/ACG_comment2.jpg) !important;
 }
 .el-textarea__inner:focus {
-  background-image: url(/assets/ACG_comment.jpg) !important;
+  background-image: url(/assets/ACG_comment2.jpg) !important;
 }
 
 /* 调整楼中楼样式 ，整体左移，贴合气泡化效果 */
