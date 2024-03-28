@@ -3330,7 +3330,7 @@ function createWinbox() {
 </div>
 
 <div class="content" style="display:flex">
-  <div class="content-text" style="font-weight:bold; padding-left:10px"> 正妹串流 (於側邊欄) </div><input type="checkbox" id="girl-cardSet" onclick="toggleGirlCard()">
+  <div class="content-text" style="font-weight:bold; padding-left:10px"> 正妹串流 (首頁側欄) </div><input type="checkbox" id="girl-cardSet" onclick="toggleGirlCard()">
 </div>
 
 <h2>二、主題色設置 - ThemeColor Settings</h2>

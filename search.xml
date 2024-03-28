@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Install and Use Docker on Ubuntu 22.04</title>
+      <link href="/posts/docker.html"/>
+      <url>/posts/docker.html</url>
+      
+        <content type="html"><![CDATA[<h1>Install and Use Docker on Ubuntu 22.04</h1><h2 id="Step-1-—-Installing-Docker">Step 1 — Installing Docker</h2><ol><li>First, update your system by running</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update &amp;&amp; sudo apt upgrade -y</span><br></pre></td></tr></table></figure><ol start="2"><li>Next, install a few prerequisite packages which let apt use packages over HTTPS:</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install apt-transport-https ca-certificates curl software-properties-common</span><br></pre></td></tr></table></figure><ol start="3"><li>Then add the GPG key for the official Docker repository to your system:</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg</span><br></pre></td></tr></table></figure><ol start="4"><li>Add the Docker repository to APT sources:</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu <span class="subst">$(lsb_release -cs)</span> stable&quot;</span> | sudo <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure><ol start="5"><li>Update your existing list of packages again for the addition to be recognized:</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br></pre></td></tr></table></figure><ol start="6"><li>Make sure you are about to install from the Docker repo instead of the default Ubuntu repo:</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt-cache policy docker-ce</span><br></pre></td></tr></table></figure><ol start="7"><li>Finally, install Docker:</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install docker-ce</span><br></pre></td></tr></table></figure><ol start="8"><li>Docker should now be installed, the daemon started, and the process enabled to start on boot. Check that it’s running:</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl status docker</span><br></pre></td></tr></table></figure><h2 id="Step-2-—-Working-with-Docker-Images">Step 2 — Working with Docker Images</h2><ol><li>To check whether you can access and download images from Docker Hub, type:</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run hello-world</span><br></pre></td></tr></table></figure><ol start="2"><li>You can search for images available on Docker Hub by using the docker command with the search subcommand. For example, to search for the Ubuntu image, type:</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker search ubuntu</span><br></pre></td></tr></table></figure><ol start="3"><li>Execute the following command to download the official ubuntu image to your computer:</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull ubuntu</span><br></pre></td></tr></table></figure><ol start="4"><li>To see the images that have been downloaded to your computer, type:</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker images</span><br></pre></td></tr></table></figure><h2 id="Step-3-—-Running-a-Docker-Container">Step 3 — Running a Docker Container</h2><ul><li>Reference</li><li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04#step-8-pushing-docker-images-to-a-docker-repository">How-to-install-and-use-docker-on-ubuntu-22-04</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Docker </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Docker </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>ASVD: Activation-aware Singular Value Decomposition for Compressing Large Language Models</title>
       <link href="/posts/ASVD.html"/>
       <url>/posts/ASVD.html</url>
