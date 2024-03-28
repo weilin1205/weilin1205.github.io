@@ -480,6 +480,13 @@
   </url>
   
   <url>
+    <loc>https://weilin1205.github.io/tags/knapsack/</loc>
+    <lastmod>2024-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://weilin1205.github.io/tags/AI-Model-Compression/</loc>
     <lastmod>2024-03-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -488,41 +495,6 @@
   
   <url>
     <loc>https://weilin1205.github.io/tags/SVD/</loc>
-    <lastmod>2024-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/tags/knapsack/</loc>
-    <lastmod>2024-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/tags/Dynamic-Programming/</loc>
-    <lastmod>2024-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/tags/Big-Number/</loc>
-    <lastmod>2024-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/tags/Greedy/</loc>
-    <lastmod>2024-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/tags/UsefulTools/</loc>
     <lastmod>2024-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -557,6 +529,34 @@
   </url>
   
   <url>
+    <loc>https://weilin1205.github.io/tags/Dynamic-Programming/</loc>
+    <lastmod>2024-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/tags/Big-Number/</loc>
+    <lastmod>2024-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/tags/Greedy/</loc>
+    <lastmod>2024-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/tags/UsefulTools/</loc>
+    <lastmod>2024-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://weilin1205.github.io/tags/Hexo/</loc>
     <lastmod>2024-03-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -580,13 +580,6 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/categories/AI-Model-Compression/</loc>
-    <lastmod>2024-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://weilin1205.github.io/categories/Algorithm/</loc>
     <lastmod>2024-03-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -594,14 +587,14 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/categories/Life/</loc>
+    <loc>https://weilin1205.github.io/categories/AI-Model-Compression/</loc>
     <lastmod>2024-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/categories/UsefulTools/</loc>
+    <loc>https://weilin1205.github.io/categories/Life/</loc>
     <lastmod>2024-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -623,6 +616,13 @@
   
   <url>
     <loc>https://weilin1205.github.io/categories/Anaconda/</loc>
+    <lastmod>2024-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/categories/UsefulTools/</loc>
     <lastmod>2024-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
