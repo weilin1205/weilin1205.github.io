@@ -2,6 +2,105 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://weilin1205.github.io/posts/uva10107.html</loc>
+    
+    <lastmod>2024-04-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/posts/uva10055.html</loc>
+    
+    <lastmod>2024-04-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/posts/uva10041.html</loc>
+    
+    <lastmod>2024-04-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/posts/uva11369.html</loc>
+    
+    <lastmod>2024-04-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/posts/uva11934.html</loc>
+    
+    <lastmod>2024-04-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/posts/uva10409.html</loc>
+    
+    <lastmod>2024-04-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/posts/uva11321.html</loc>
+    
+    <lastmod>2024-04-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/posts/uva10198.html</loc>
+    
+    <lastmod>2024-04-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/posts/uva369.html</loc>
+    
+    <lastmod>2024-04-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/posts/uva488.html</loc>
+    
+    <lastmod>2024-04-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/posts/uva11349.html</loc>
+    
+    <lastmod>2024-04-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://weilin1205.github.io/posts/docker.html</loc>
     
     <lastmod>2024-03-28</lastmod>
@@ -23,15 +122,6 @@
     <loc>https://weilin1205.github.io/posts/markdownhexo.html</loc>
     
     <lastmod>2024-03-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/posts/UVa-10041-Vitos-Family.html</loc>
-    
-    <lastmod>2024-03-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -138,96 +228,6 @@
   
   <url>
     <loc>https://weilin1205.github.io/personal/about/index.html</loc>
-    
-    <lastmod>2024-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/posts/UVa-11934-Magic-Formula.html</loc>
-    
-    <lastmod>2024-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/posts/UVa-11369-Shopaholic.html</loc>
-    
-    <lastmod>2024-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/posts/UVa-11349-Symmetric-Matrix.html</loc>
-    
-    <lastmod>2024-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/posts/UVa-10409-Die-Game.html</loc>
-    
-    <lastmod>2024-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/posts/UVa10107-What-is-the-Median.html</loc>
-    
-    <lastmod>2024-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/posts/UVa-10198-Counting.html</loc>
-    
-    <lastmod>2024-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/posts/UVa-10055-Hashmat-the-brave-warrior.html</loc>
-    
-    <lastmod>2024-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/posts/UVa-488-Triangle-Wave.html</loc>
-    
-    <lastmod>2024-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/posts/UVa-369-Combinations.html</loc>
-    
-    <lastmod>2024-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/posts/UVa-11321-Sort!-Sort!!-And-Sort!!!.html</loc>
     
     <lastmod>2024-03-16</lastmod>
     
@@ -407,7 +407,7 @@
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/posts/CPEsolutions.html</loc>
+    <loc>https://weilin1205.github.io/posts/cpebasic.html</loc>
     
     <lastmod>2024-01-17</lastmod>
     
@@ -445,7 +445,7 @@
 
   <url>
     <loc>https://weilin1205.github.io/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -453,112 +453,112 @@
   
   <url>
     <loc>https://weilin1205.github.io/tags/UVa/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/tags/CPE/</loc>
-    <lastmod>2024-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/tags/LeetCode/</loc>
-    <lastmod>2024-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/tags/Markdown/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/tags/knapsack/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/tags/Markdown/</loc>
+    <lastmod>2024-04-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/tags/LeetCode/</loc>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/tags/AI-Model-Compression/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/tags/SVD/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/tags/Docker/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/tags/Linux/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/tags/Python/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/tags/Anaconda/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/tags/Dynamic-Programming/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/tags/Big-Number/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/tags/Greedy/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/tags/UsefulTools/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/tags/Hexo/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -567,70 +567,70 @@
   
   <url>
     <loc>https://weilin1205.github.io/categories/UVa/</loc>
-    <lastmod>2024-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://weilin1205.github.io/categories/LeetCode/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/categories/Algorithm/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/categories/AI-Model-Compression/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <loc>https://weilin1205.github.io/categories/LeetCode/</loc>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/categories/Life/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/categories/AI-Model-Compression/</loc>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/categories/Docker/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/categories/Linux/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/categories/Anaconda/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/categories/UsefulTools/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://weilin1205.github.io/categories/HexoTutorial/</loc>
-    <lastmod>2024-03-28</lastmod>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
