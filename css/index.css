@@ -9419,6 +9419,7 @@ hr:before {
 /*            ---- card_girl 側邊欄正妹輪播圖  ---- START                       */
 /* -------------------------------------------------------------------------- */
 .girl {
+  display: var(--rightside-girl-display);
   margin-top: 20px;
   padding: 15px;
   box-sizing: border-box;
@@ -9470,6 +9471,7 @@ hr:before {
   background-color: var(--theme-color);
   color: white;
 }
+
 
 /* -------------------------------------------------------------------------- */
 /*            ---- card_girl 側邊欄正妹輪播圖  ---- end                         */

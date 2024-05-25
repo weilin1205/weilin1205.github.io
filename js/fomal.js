@@ -1157,7 +1157,7 @@ function createtime1() {
 createtime1();
 
 function createtime2() {
-  var ascll2 = [`NCC2-036`, `啟動前置鏡頭拍照成功`, `Photo captured`];
+  var ascll2 = [`NCC2-036`, `啟動前置鏡頭拍照成功`, `Photo captured`, `🧱`];
 
   setTimeout(
     console.log.bind(
@@ -3030,7 +3030,6 @@ function setBlurNum() {
   document.getElementById("blurNum").innerText = `:root{--blur-num: blur(${curBlur}px) saturate(120%) !important`;
 };
 
-
 // 模糊效果开关
 if (localStorage.getItem("blur") == undefined) {
   localStorage.setItem("blur", 0);
@@ -3047,6 +3046,26 @@ function setBlur() {
   } else {
     localStorage.setItem("blur", 0);
     document.getElementById("settingStyle").innerText = `:root{--backdrop-filter: none}`;
+  }
+}
+
+// 正妹輪播圖開關
+if (localStorage.getItem("girl-card") == undefined) {
+  localStorage.setItem("girl-card", "none");  // 默認關閉是none，默認顯示是block
+}
+if (localStorage.getItem("girl-card") == "none") {
+  document.getElementById("rightGirl").innerText = `:root{--rightside-girl-display: none}`;
+
+} else {
+  document.getElementById("rightGirl").innerText = `:root{--rightside-girl-display: block}`;
+}
+function toggleGirlCard() {
+  if (document.getElementById("girl-cardSet").checked) {
+    localStorage.setItem("girl-card", "block");
+    document.getElementById("rightGirl").innerText = `:root{--rightside-girl-display: block}`;
+  } else {
+    localStorage.setItem("girl-card", "none");
+    document.getElementById("rightGirl").innerText = `:root{--rightside-girl-display: none}`;
   }
 }
 
@@ -3516,22 +3535,6 @@ function toggleWinbox() {
     createWinbox();
   };
 }
-
-// 正妹輪播圖開關
-if (localStorage.getItem("girl-card") == undefined) {
-  localStorage.setItem("girl-card", "none");  // 默認關閉是none，默認顯示是block
-}
-document.querySelector(".girl.card-widget").style.display = localStorage.getItem("girl-card");
-
-function toggleGirlCard() {
-  if (document.getElementById("girl-cardSet").checked) {
-    localStorage.setItem("girl-card", "block");
-    document.querySelector(".girl.card-widget").style.display = "block";
-  } else {
-    localStorage.setItem("girl-card", "none");
-    document.querySelector(".girl.card-widget").style.display = "none";
-  }
-}
 /* 美化模块 end */
 
 /* 側邊正妹輪播圖 start */
@@ -3567,4 +3570,5 @@ function linkTo() {
 $(document).ready(function() {
   linkTo();
 });
+
 /* 側邊正妹輪播圖 end */
