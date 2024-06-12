@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Weilin&#39;s Blog</title>
+    <link>https://weilin1205.github.io/</link>
+    
+    <image>
+      <url>https://weilin1205.github.io/icon.png</url>
+      <title>Weilin&#39;s Blog</title>
+      <link>https://weilin1205.github.io/</link>
+    </image>
+    
+    <atom:link href="https://weilin1205.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>👨‍💻 Software Engineer 👨‍💻</description>
+    <pubDate>Tue, 11 Jun 2024 10:01:43 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>UVa 10035 - Primary Arithmetic</title>
+      <link>https://weilin1205.github.io/posts/uva10035/</link>
+      <guid>https://weilin1205.github.io/posts/uva10035/</guid>
+      <pubDate>Mon, 06 May 2024 11:33:03 GMT</pubDate>
+      
+      <description>🎈UVa 10035 - Primary Arithmetic</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/UVa/">UVa</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/UVa/">UVa</category>
+      
+      <category domain="https://weilin1205.github.io/tags/CPE/">CPE</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/uva10035/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Install and Use Docker on Ubuntu 22.04</title>
+      <link>https://weilin1205.github.io/posts/docker/</link>
+      <guid>https://weilin1205.github.io/posts/docker/</guid>
+      <pubDate>Wed, 27 Mar 2024 13:52:04 GMT</pubDate>
+      
+      <description>🚢 Install and Use Docker on Ubuntu 22.04</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/Docker/">Docker</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/Docker/">Docker</category>
+      
+      <category domain="https://weilin1205.github.io/tags/Linux/">Linux</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/docker/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>ASVD: Activation-aware Singular Value Decomposition for Compressing Large Language Models</title>
+      <link>https://weilin1205.github.io/posts/ASVD/</link>
+      <guid>https://weilin1205.github.io/posts/ASVD/</guid>
+      <pubDate>Wed, 20 Mar 2024 04:55:04 GMT</pubDate>
+      
+      <description>🧬ASVD: Activation-aware Singular Value Decomposition for Compressing Large Language Models</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/Project/">Project</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/AI-Model-Compression/">AI Model Compression</category>
+      
+      <category domain="https://weilin1205.github.io/tags/SVD/">SVD</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/ASVD/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>UVa 10050 Hartals</title>
+      <link>https://weilin1205.github.io/posts/UVa10050/</link>
+      <guid>https://weilin1205.github.io/posts/UVa10050/</guid>
+      <pubDate>Mon, 19 Feb 2024 03:50:04 GMT</pubDate>
+      
+      <description>🎈UVa 10050 - Hartals Accepted Solutions</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/UVa/">UVa</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/UVa/">UVa</category>
+      
+      <category domain="https://weilin1205.github.io/tags/CPE/">CPE</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/UVa10050/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>UVa 100 - The 3n+1 problem</title>
+      <link>https://weilin1205.github.io/posts/uva100/</link>
+      <guid>https://weilin1205.github.io/posts/uva100/</guid>
+      <pubDate>Sat, 20 Jan 2024 11:33:03 GMT</pubDate>
+      
+      <description>🎈UVa 100 - The 3n+1 problem</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/UVa/">UVa</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/UVa/">UVa</category>
+      
+      <category domain="https://weilin1205.github.io/tags/CPE/">CPE</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/uva100/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Upgrading Python to the Latest Version on Ubuntu Linux</title>
+      <link>https://weilin1205.github.io/posts/linuxpython/</link>
+      <guid>https://weilin1205.github.io/posts/linuxpython/</guid>
+      <pubDate>Fri, 29 Dec 2023 13:52:04 GMT</pubDate>
+      
+      <description>🪜Upgrading Python to the Latest Version on Ubuntu Linux</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/Linux/">Linux</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/Linux/">Linux</category>
+      
+      <category domain="https://weilin1205.github.io/tags/Python/">Python</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/linuxpython/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Setting Up Anaconda: Installation and Environment Configuration Guide</title>
+      <link>https://weilin1205.github.io/posts/setconda/</link>
+      <guid>https://weilin1205.github.io/posts/setconda/</guid>
+      <pubDate>Thu, 28 Dec 2023 13:52:04 GMT</pubDate>
+      
+      <description>🛠️Setting Up Anaconda: Installation and Environment Configuration Guide</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/Anaconda/">Anaconda</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/Linux/">Linux</category>
+      
+      <category domain="https://weilin1205.github.io/tags/Anaconda/">Anaconda</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/setconda/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>LeetCode 63 - Unique Paths II</title>
+      <link>https://weilin1205.github.io/posts/LeetCode-63-Unique-Paths-II/</link>
+      <guid>https://weilin1205.github.io/posts/LeetCode-63-Unique-Paths-II/</guid>
+      <pubDate>Sat, 30 Sep 2023 04:25:10 GMT</pubDate>
+      
+      <description>🚩LeetCode 63 - Unique Paths II Accepted Solutions</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/LeetCode/">LeetCode</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/LeetCode/">LeetCode</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/LeetCode-63-Unique-Paths-II/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>LeetCode 120 - Triangle</title>
+      <link>https://weilin1205.github.io/posts/LeetCode-120-Triangle/</link>
+      <guid>https://weilin1205.github.io/posts/LeetCode-120-Triangle/</guid>
+      <pubDate>Sat, 30 Sep 2023 04:12:05 GMT</pubDate>
+      
+      <description>🚩LeetCode 120 - Triangle Accepted Solutions</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/LeetCode/">LeetCode</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/LeetCode/">LeetCode</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/LeetCode-120-Triangle/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>LeetCode 198 - House Robber</title>
+      <link>https://weilin1205.github.io/posts/LeetCode-198-House-Robber/</link>
+      <guid>https://weilin1205.github.io/posts/LeetCode-198-House-Robber/</guid>
+      <pubDate>Sat, 30 Sep 2023 04:12:05 GMT</pubDate>
+      
+      <description>🚩LeetCode 198 - House Robber Accepted Solutions</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/LeetCode/">LeetCode</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/LeetCode/">LeetCode</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/LeetCode-198-House-Robber/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>LeetCode 74 - Search a 2D Matrix</title>
+      <link>https://weilin1205.github.io/posts/LeetCode-74-Search-a-2D-Matrix/</link>
+      <guid>https://weilin1205.github.io/posts/LeetCode-74-Search-a-2D-Matrix/</guid>
+      <pubDate>Sat, 30 Sep 2023 04:12:05 GMT</pubDate>
+      
+      <description>🚩LeetCode 74 - Search a 2D Matrix Accepted Solutions</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/LeetCode/">LeetCode</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/LeetCode/">LeetCode</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/LeetCode-74-Search-a-2D-Matrix/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>LeetCode 931 - Minimum Falling Path Sum</title>
+      <link>https://weilin1205.github.io/posts/LeetCode-931-Minimum-Falling-Path-Sum/</link>
+      <guid>https://weilin1205.github.io/posts/LeetCode-931-Minimum-Falling-Path-Sum/</guid>
+      <pubDate>Sat, 30 Sep 2023 04:12:05 GMT</pubDate>
+      
+      <description>🚩LeetCode 931 - Minimum Falling Path Sum Accepted Solutions</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/LeetCode/">LeetCode</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/LeetCode/">LeetCode</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/LeetCode-931-Minimum-Falling-Path-Sum/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>01 knapsack</title>
+      <link>https://weilin1205.github.io/posts/01knapsack/</link>
+      <guid>https://weilin1205.github.io/posts/01knapsack/</guid>
+      <pubDate>Sat, 02 Sep 2023 05:02:05 GMT</pubDate>
+      
+      <description>🅰️Introduction of 01knapsack algorithm</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/Algorithm/">Algorithm</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/knapsack/">knapsack</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/01knapsack/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>LeetCode 9 - Palindrome Number</title>
+      <link>https://weilin1205.github.io/posts/LeetCode-9-Palindrome-Number/</link>
+      <guid>https://weilin1205.github.io/posts/LeetCode-9-Palindrome-Number/</guid>
+      <pubDate>Tue, 06 Jun 2023 14:00:04 GMT</pubDate>
+      
+      <description>🚩LeetCode 9 - Palindrome Number Accepted Solutions</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/LeetCode/">LeetCode</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/LeetCode/">LeetCode</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/LeetCode-9-Palindrome-Number/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>C++ Data Type Ranges</title>
+      <link>https://weilin1205.github.io/posts/Cpp-Data-Type-Ranges/</link>
+      <guid>https://weilin1205.github.io/posts/Cpp-Data-Type-Ranges/</guid>
+      <pubDate>Tue, 06 Jun 2023 13:04:03 GMT</pubDate>
+      
+      <description>🛠️C++ Data Type Ranges</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/UsefulTools/">UsefulTools</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/UsefulTools/">UsefulTools</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/Cpp-Data-Type-Ranges/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>UVa 10055 - Hashmat the brave warrior</title>
+      <link>https://weilin1205.github.io/posts/uva10055/</link>
+      <guid>https://weilin1205.github.io/posts/uva10055/</guid>
+      <pubDate>Tue, 06 Jun 2023 11:33:03 GMT</pubDate>
+      
+      <description>🎈UVa 10055 - Hashmat the brave warrior Accepted Solutions</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/UVa/">UVa</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/UVa/">UVa</category>
+      
+      <category domain="https://weilin1205.github.io/tags/CPE/">CPE</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/uva10055/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Selected Inspirational Quotes</title>
+      <link>https://weilin1205.github.io/posts/Selected-Inspirational-Quotes/</link>
+      <guid>https://weilin1205.github.io/posts/Selected-Inspirational-Quotes/</guid>
+      <pubDate>Sun, 28 May 2023 12:31:21 GMT</pubDate>
+      
+      <description>🔥Selected Inspirational Quotes</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/Life/">Life</category>
+      
+      
+      
+      <comments>https://weilin1205.github.io/posts/Selected-Inspirational-Quotes/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>UVa 11349 - Symmetric Matrix</title>
+      <link>https://weilin1205.github.io/posts/uva11349/</link>
+      <guid>https://weilin1205.github.io/posts/uva11349/</guid>
+      <pubDate>Sat, 27 May 2023 13:51:41 GMT</pubDate>
+      
+      <description>🎈UVa 11349 - Symmetric Matrix Accepted Solutions</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/UVa/">UVa</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/UVa/">UVa</category>
+      
+      <category domain="https://weilin1205.github.io/tags/CPE/">CPE</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/uva11349/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>UVa 11934 - Magic Formula</title>
+      <link>https://weilin1205.github.io/posts/uva11934/</link>
+      <guid>https://weilin1205.github.io/posts/uva11934/</guid>
+      <pubDate>Sat, 27 May 2023 12:50:40 GMT</pubDate>
+      
+      <description>🎈UVa 11934 - Magic Formula Accepted Solutions</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/UVa/">UVa</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/UVa/">UVa</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/uva11934/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>ASCII Table</title>
+      <link>https://weilin1205.github.io/posts/ASCIITable/</link>
+      <guid>https://weilin1205.github.io/posts/ASCIITable/</guid>
+      <pubDate>Tue, 02 May 2023 04:02:04 GMT</pubDate>
+      
+      <description>🛠️ASCII Table</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/UsefulTools/">UsefulTools</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/UsefulTools/">UsefulTools</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/ASCIITable/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
