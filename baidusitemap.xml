@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://weilin1205.github.io/posts/uva10035/</loc>
+    <lastmod>2024-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://weilin1205.github.io/posts/LeetCode-387-First-Unique-Character-in-a-String/</loc>
+    <lastmod>2024-06-27</lastmod>
+  </url>
+  <url>
+    <loc>https://weilin1205.github.io/posts/uva10041/</loc>
+    <lastmod>2024-06-26</lastmod>
+  </url>
+  <url>
     <loc>https://weilin1205.github.io/posts/uva10409/</loc>
     <lastmod>2024-06-12</lastmod>
   </url>
@@ -22,14 +34,6 @@
   </url>
   <url>
     <loc>https://weilin1205.github.io/posts/uva100/</loc>
-    <lastmod>2024-06-12</lastmod>
-  </url>
-  <url>
-    <loc>https://weilin1205.github.io/posts/uva10035/</loc>
-    <lastmod>2024-06-12</lastmod>
-  </url>
-  <url>
-    <loc>https://weilin1205.github.io/posts/uva10041/</loc>
     <lastmod>2024-06-12</lastmod>
   </url>
   <url>
@@ -106,10 +110,6 @@
   </url>
   <url>
     <loc>https://weilin1205.github.io/posts/LeetCode-392-Is-Subsequence/</loc>
-    <lastmod>2024-01-23</lastmod>
-  </url>
-  <url>
-    <loc>https://weilin1205.github.io/posts/LeetCode-387-First-Unique-Character-in-a-String/</loc>
     <lastmod>2024-01-23</lastmod>
   </url>
   <url>
