@@ -110,8 +110,8 @@
     
     <item>
       <title>UVa 10050 Hartals</title>
-      <link>https://weilin1205.github.io/posts/uva10050/</link>
-      <guid>https://weilin1205.github.io/posts/uva10050/</guid>
+      <link>https://weilin1205.github.io/posts/UVa10050/</link>
+      <guid>https://weilin1205.github.io/posts/UVa10050/</guid>
       <pubDate>Mon, 19 Feb 2024 03:50:04 GMT</pubDate>
       
       <description>🎈UVa 10050 - Hartals Accepted Solutions</description>
@@ -127,7 +127,7 @@
       <category domain="https://weilin1205.github.io/tags/CPE/">CPE</category>
       
       
-      <comments>https://weilin1205.github.io/posts/uva10050/#disqus_thread</comments>
+      <comments>https://weilin1205.github.io/posts/UVa10050/#disqus_thread</comments>
       
     </item>
     
@@ -222,27 +222,6 @@
     </item>
     
     <item>
-      <title>LeetCode 120 - Triangle</title>
-      <link>https://weilin1205.github.io/posts/LeetCode-120-Triangle/</link>
-      <guid>https://weilin1205.github.io/posts/LeetCode-120-Triangle/</guid>
-      <pubDate>Sat, 30 Sep 2023 04:12:05 GMT</pubDate>
-      
-      <description>🚩LeetCode 120 - Triangle Accepted Solutions</description>
-      
-      
-      
-      
-      <category domain="https://weilin1205.github.io/categories/LeetCode/">LeetCode</category>
-      
-      
-      <category domain="https://weilin1205.github.io/tags/LeetCode/">LeetCode</category>
-      
-      
-      <comments>https://weilin1205.github.io/posts/LeetCode-120-Triangle/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>LeetCode 198 - House Robber</title>
       <link>https://weilin1205.github.io/posts/LeetCode-198-House-Robber/</link>
       <guid>https://weilin1205.github.io/posts/LeetCode-198-House-Robber/</guid>
@@ -260,6 +239,27 @@
       
       
       <comments>https://weilin1205.github.io/posts/LeetCode-198-House-Robber/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>LeetCode 120 - Triangle</title>
+      <link>https://weilin1205.github.io/posts/LeetCode-120-Triangle/</link>
+      <guid>https://weilin1205.github.io/posts/LeetCode-120-Triangle/</guid>
+      <pubDate>Sat, 30 Sep 2023 04:12:05 GMT</pubDate>
+      
+      <description>🚩LeetCode 120 - Triangle Accepted Solutions</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/LeetCode/">LeetCode</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/LeetCode/">LeetCode</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/LeetCode-120-Triangle/#disqus_thread</comments>
       
     </item>
     
