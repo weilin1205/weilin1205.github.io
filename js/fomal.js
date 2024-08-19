@@ -3349,7 +3349,7 @@ function createWinbox() {
 </div>
 
 <div class="content" style="display:flex">
-  <div class="content-text" style="font-weight:bold; padding-left:10px"> 正妹串流 (首頁側欄) </div><input type="checkbox" id="girl-cardSet" onclick="toggleGirlCard()">
+  <div class="content-text" style="font-weight:bold; padding-left:10px"> 影片串流 (首頁側欄) </div><input type="checkbox" id="girl-cardSet" onclick="toggleGirlCard()">
 </div>
 
 <h2>二、主題色設置 - ThemeColor Settings</h2>
@@ -3385,7 +3385,7 @@ function createWinbox() {
 
 
 <h3>1. 壁紙API</h3>
-<details class="folding-tag" cyan open><summary> 查看壁纸API系列背景，重新整理後API會更新，可以得到新的壁紙 </summary>
+<details class="folding-tag" cyan open><summary> 查看壁纸API系列背景，重新整理(F5)後API會更新，可以得到新的壁紙 </summary>
               <div class='content'>
               <div class="bgbox"><a id="bingDayBox" rel="noopener external nofollow" style="background-image: ${bingDayBg}" class="box apiBox" onclick="changeBg('${bingDayBg}')"></a><a id="bingHistoryBox" rel="noopener external nofollow" style="background-image: ${bingHistoryBg}" class="box apiBox" onclick="changeBg('${bingHistoryBg}')"></a><a id="EEEDogBox" rel="noopener external nofollow" style="background-image: ${EEEDog}" class="box apiBox" onclick="changeBg('${EEEDog}')"></a><a id="seovxBox" rel="noopener external nofollow" style="background-image: ${seovx}" class="box apiBox" onclick="changeBg('${seovx}')"></a><a id="picsumBox" rel="noopener external nofollow" style="background-image: ${picsum}" class="box apiBox" onclick="changeBg('${picsum}')"></a><a id="waiBizhiBox" rel="noopener external nofollow" style="background-image: ${waiBizhi}" class="box apiBox" onclick="changeBg('${waiBizhi}')"></a><a id="suyanwBox" rel="noopener external nofollow" style="background-image: ${suyanw}" class="box apiBox" onclick="changeBg('${suyanw}')"></a><a id="btstuBox" rel="noopener external nofollow" style="background-image: ${btstu}" class="box apiBox" onclick="changeBg('${btstu}')"></a><a id="seovxTraditionBox" rel="noopener external nofollow" style="background-image: ${seovxTradition}" class="box apiBox" onclick="changeBg('${seovxTradition}')"></a><a id="unsplashBox" rel="noopener external nofollow" style="background-image: ${unsplash}" class="box apiBox" onclick="changeBg('${unsplash}')"></a></div>
               </div>
@@ -3452,7 +3452,7 @@ function createWinbox() {
 <div class="note warning modern"><p>本站為非商業、非盈利性質的網站，僅限用於個人學習交流，無商業使用，如圖片或字體有侵權，請立即聯繫本站刪除，謝謝！<br>
 This website operates on a non-commercial and non-profit basis, serving exclusively for personal learning and communication purposes. In the event of any infringement related to images or fonts, we kindly request that you promptly contact us for removal. Thank you!</p>
 </div>
-<center><div style="font-size:1.2em;color:var(--theme-color);font-weight:bold;">------ ( •̀ ω •́ )y 到底啦 ------</div></center>
+<center><div style="font-size:1.2em;color:var(--theme-color);font-weight:bold;">------ ( •̀ ω •́ )y 滑到底啦 ------</div></center>
 <br>
 
 </div>
