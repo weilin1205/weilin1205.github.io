@@ -3449,8 +3449,7 @@ function createWinbox() {
             </details>
 
 <br>
-<div class="note warning modern"><p>本站為非商業、非盈利性質的網站，僅限用於個人學習交流，無商業使用，如圖片或字體有侵權，請立即聯繫本站刪除，謝謝！<br>
-This website operates on a non-commercial and non-profit basis, serving exclusively for personal learning and communication purposes. In the event of any infringement related to images or fonts, we kindly request that you promptly contact us for removal. Thank you!</p>
+<div class="note warning modern"><p>本站為非商業、非盈利性質的網站，僅限用於個人學習交流，無商業使用，如圖片或字體有侵權，請立即聯繫本站刪除，謝謝！<br>This website operates on a non-commercial and non-profit basis, serving exclusively for personal learning and communication purposes. In the event of any infringement related to images or fonts, we kindly request that you promptly contact us for removal. Thank you!</p>
 </div>
 <center><div style="font-size:1.2em;color:var(--theme-color);font-weight:bold;">------ ( •̀ ω •́ )y 滑到底啦 ------</div></center>
 <br>
@@ -3539,36 +3538,103 @@ function toggleWinbox() {
 
 /* 側邊正妹輪播圖 start */
 // 播放||暂定||換一個 影片
-function linkTo() {
-  const videoDom = document.getElementById("girl-video");
-  const u_ = "https://www.cunshao.com/666666/api/web.php";
+// 使用立即執行函數來避免全局變量污染
+// 使用立即執行函數來避免全局變量污染
+(function() {
+  // 存儲全局變量
+  const videoPlayerConfig = {
+    videoDom: null,
+    apiUrl: "https://www.cunshao.com/666666/api/web.php",
+    hasStartedPlaying: false  // 新增：追蹤是否已經開始播放
+  };
 
-  if (videoDom) {
-    $(".girl_btn_fuck").on("click", function() {
-      if (videoDom.paused) {
-        videoDom.play();
-        $(this)[0].innerText = "暫停";
-      } else {
-        videoDom.pause();
-        $(this)[0].innerText = "播放";
-      }
-    });
-
-    $(".girl_btn_next").on("click", function() {
-      videoDom.src = u_;
-      videoDom.play();
-    });
-
-    videoDom.addEventListener("ended", function(event) {
-      videoDom.src = u_;
-      videoDom.play();
-    });
+  // 初始化函數
+  function initVideoPlayer() {
+    videoPlayerConfig.videoDom = document.getElementById("girl-video");
+    
+    if (videoPlayerConfig.videoDom) {
+      setupEventListeners();
+      loadNewVideo(false);  // 加載視頻但不自動播放
+    }
   }
-}
 
-// 在頁面加載完成後執行 linkTo 函數
-$(document).ready(function() {
-  linkTo();
-});
+  // 設置事件監聽器
+  function setupEventListeners() {
+    $(".girl_btn_fuck").on("click", togglePlayPause);
+    $(".girl_btn_next").on("click", () => loadNewVideo(true));
+    videoPlayerConfig.videoDom.addEventListener("ended", () => loadNewVideo(true));
+  }
+
+  // 切換播放/暫停
+  function togglePlayPause() {
+    if (videoPlayerConfig.videoDom.paused) {
+      videoPlayerConfig.videoDom.play();
+      $(this).text("暫停");
+      videoPlayerConfig.hasStartedPlaying = true;  // 標記已經開始播放
+    } else {
+      videoPlayerConfig.videoDom.pause();
+      $(this).text("播放");
+    }
+  }
+
+  // 加載新影片
+  function loadNewVideo(autoPlay) {
+    fetch(videoPlayerConfig.apiUrl)
+      .then(response => response.text())
+      .then(newUrl => {
+        videoPlayerConfig.videoDom.src = newUrl;
+        if (autoPlay || videoPlayerConfig.hasStartedPlaying) {
+          videoPlayerConfig.videoDom.play();
+        }
+      })
+      .catch(error => {
+        console.error("Error fetching new video URL:", error);
+        videoPlayerConfig.videoDom.src = videoPlayerConfig.apiUrl;
+        if (autoPlay || videoPlayerConfig.hasStartedPlaying) {
+          videoPlayerConfig.videoDom.play();
+        }
+      });
+  }
+
+  // 使用 MutationObserver 來檢測 DOM 變化
+  function setupMutationObserver() {
+    const targetNode = document.body;
+    const config = { childList: true, subtree: true };
+
+    const callback = function(mutationsList, observer) {
+      for(let mutation of mutationsList) {
+        if (mutation.type === 'childList') {
+          const videoDom = document.getElementById("girl-video");
+          if (videoDom && videoDom !== videoPlayerConfig.videoDom) {
+            videoPlayerConfig.videoDom = videoDom;
+            setupEventListeners();
+            loadNewVideo(false);  // 加載視頻但不自動播放
+          }
+        }
+      }
+    };
+
+    const observer = new MutationObserver(callback);
+    observer.observe(targetNode, config);
+  }
+
+  // 在 DOMContentLoaded 事件觸發時初始化
+  document.addEventListener('DOMContentLoaded', function() {
+    initVideoPlayer();
+    setupMutationObserver();
+  });
+
+  // 為了兼容性，也保留 jQuery 的方法
+  $(document).ready(function() {
+    initVideoPlayer();
+    setupMutationObserver();
+  });
+
+  // 如果頁面已經加載完成，立即執行初始化
+  if (document.readyState === "complete" || document.readyState === "interactive") {
+    initVideoPlayer();
+    setupMutationObserver();
+  }
+})();
 
 /* 側邊正妹輪播圖 end */
