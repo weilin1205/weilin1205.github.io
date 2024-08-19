@@ -3326,7 +3326,7 @@ function createWinbox() {
   <p class="rang_width" id="rang_trans" style="width:${curTransMini}%"></p>
 </div>
 
-<div class="blurValue" style="font-weight:bold;padding-left:10px">模糊半徑（需啟用模糊效果，本文背景區塊糊化）: ${curBlur} px</div>
+<div class="blurValue" style="font-weight:bold;padding-left:10px">模糊半徑（需啟用模糊效果，並降低透明度。可使本文背景區塊糊化）: ${curBlur} px</div>
 <div class="range">
   <input id="blurSet" type="range" min="0" max="100" step="1" value="${curBlur}" oninput="setBlurNum()">
   <p class="rang_width" id="rang_blur" style="width:${miniBlur}%"></p>
@@ -3449,7 +3449,8 @@ function createWinbox() {
             </details>
 
 <br>
-<div class="note warning modern"><p>本站為非商業、非盈利性質的網站，僅限用於個人學習交流，無商業使用，如圖片或字體有侵權，請立即聯繫本站刪除，謝謝！<br>This website operates on a non-commercial and non-profit basis, serving exclusively for personal learning and communication purposes. In the event of any infringement related to images or fonts, we kindly request that you promptly contact us for removal. Thank you!</p>
+<div class="note warning modern"><p>本站為非商業、非盈利性質的網站，僅限用於個人學習交流，無商業使用，如圖片或字體有侵權，請立即聯繫本站刪除，謝謝！<br>
+This website operates on a non-commercial and non-profit basis, serving exclusively for personal learning and communication purposes. In the event of any infringement related to images or fonts, we kindly request that you promptly contact us for removal. Thank you!</p>
 </div>
 <center><div style="font-size:1.2em;color:var(--theme-color);font-weight:bold;">------ ( •̀ ω •́ )y 滑到底啦 ------</div></center>
 <br>
@@ -3538,7 +3539,6 @@ function toggleWinbox() {
 
 /* 側邊正妹輪播圖 start */
 // 播放||暂定||換一個 影片
-// 使用立即執行函數來避免全局變量污染
 // 使用立即執行函數來避免全局變量污染
 (function() {
   // 存儲全局變量
