@@ -6,7 +6,7 @@
   <link href="https://weilin1205.github.io/atom.xml" rel="self"/>
   
   <link href="https://weilin1205.github.io/"/>
-  <updated>2024-07-05T10:36:47.153Z</updated>
+  <updated>2024-08-19T17:18:26.193Z</updated>
   <id>https://weilin1205.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>評論區部屬：使用 Twikoo + Vercel + Gmail SMTP</title>
+    <link href="https://weilin1205.github.io/posts/23086c2f/"/>
+    <id>https://weilin1205.github.io/posts/23086c2f/</id>
+    <published>2024-08-17T04:00:04.000Z</published>
+    <updated>2024-08-19T17:18:26.193Z</updated>
+    
+    
+    <summary type="html">Step-by-Step Tutorial</summary>
+    
+    
+    
+    <category term="HexoTutorial" scheme="https://weilin1205.github.io/categories/HexoTutorial/"/>
+    
+    
+    <category term="Hexo" scheme="https://weilin1205.github.io/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>UVa 10035 - Primary Arithmetic</title>
@@ -84,7 +103,7 @@
     <link href="https://weilin1205.github.io/posts/uva10050/"/>
     <id>https://weilin1205.github.io/posts/uva10050/</id>
     <published>2024-02-19T03:50:04.000Z</published>
-    <updated>2024-06-12T20:55:51.366Z</updated>
+    <updated>2024-08-19T17:23:02.528Z</updated>
     
     
     <summary type="html">🎈UVa 10050 - Hartals Accepted Solutions</summary>
@@ -183,14 +202,14 @@
   </entry>
   
   <entry>
-    <title>LeetCode 198 - House Robber</title>
-    <link href="https://weilin1205.github.io/posts/LeetCode-198-House-Robber/"/>
-    <id>https://weilin1205.github.io/posts/LeetCode-198-House-Robber/</id>
+    <title>LeetCode 120 - Triangle</title>
+    <link href="https://weilin1205.github.io/posts/LeetCode-120-Triangle/"/>
+    <id>https://weilin1205.github.io/posts/LeetCode-120-Triangle/</id>
     <published>2023-09-30T04:12:05.000Z</published>
-    <updated>2024-01-23T17:31:59.586Z</updated>
+    <updated>2024-01-23T17:31:51.663Z</updated>
     
     
-    <summary type="html">🚩LeetCode 198 - House Robber Accepted Solutions</summary>
+    <summary type="html">🚩LeetCode 120 - Triangle Accepted Solutions</summary>
     
     
     
@@ -202,14 +221,14 @@
   </entry>
   
   <entry>
-    <title>LeetCode 120 - Triangle</title>
-    <link href="https://weilin1205.github.io/posts/LeetCode-120-Triangle/"/>
-    <id>https://weilin1205.github.io/posts/LeetCode-120-Triangle/</id>
+    <title>LeetCode 198 - House Robber</title>
+    <link href="https://weilin1205.github.io/posts/LeetCode-198-House-Robber/"/>
+    <id>https://weilin1205.github.io/posts/LeetCode-198-House-Robber/</id>
     <published>2023-09-30T04:12:05.000Z</published>
-    <updated>2024-01-23T17:31:51.663Z</updated>
+    <updated>2024-01-23T17:31:59.586Z</updated>
     
     
-    <summary type="html">🚩LeetCode 120 - Triangle Accepted Solutions</summary>
+    <summary type="html">🚩LeetCode 198 - House Robber Accepted Solutions</summary>
     
     
     
