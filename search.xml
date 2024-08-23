@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>本地端部屬生成式AI：使用 Ollama+Open WebUI 部屬繁中 TAIDE 模型</title>
+      <link href="/posts/290592c4/"/>
+      <url>/posts/290592c4/</url>
+      
+        <content type="html"><![CDATA[<div class="tabs" id="mytab"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#mytab-1"><i class="fas fa-toolbox"></i>設備環境</button></li><li class="tab"><button type="button" data-href="#mytab-2"><i class="fas fa-download"></i>官方網站</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="mytab-1"><ul><li><strong>OS name: Ubuntu 22.04 LTS</strong></li><li><strong>OS type: 64-bits</strong></li><li><strong>Python version: 3.10.12</strong></li></ul><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="mytab-2"><ul><li><strong>Ollama 官方網站：<a href="https://www.anaconda.com/download">https://www.anaconda.com/download</a></strong></li><li><strong>Open WebUI 官方網站：<a href="https://openwebui.com/">https://openwebui.com/</a></strong></li><li><strong>TAIDE 官方網站：<a href="https://taide.tw/index">https://taide.tw/index</a></strong></li><li><strong>本篇教學為 Step by Step，跟著下面5個步驟走完即可安裝成功</strong></li></ul><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h1>部屬結果展示 (Demo with Open WebUI on RTX4090)：</h1><p><img src="https://i.imgur.com/fyUF0hQ.png" alt="Image"></p><h1>部屬逐步教學 (Step by step)，僅需要5個步驟:</h1><h2 id="Step-1-安裝-“Ollama”">Step 1. 安裝 “Ollama”</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL https://ollama.com/install.sh | sh</span><br></pre></td></tr></table></figure><h2 id="Step-2-下載所要使用的語言模型">Step 2. 下載所要使用的語言模型</h2><p>作者有在 Ollama上傳2個繁體中文模型，它是臺灣可信賴大型語言模型 <a href="https://taide.tw/index">TAIDE</a>，一個是 <a href="https://ollama.com/weilin1205/llama3-taide-lx-8b-chat-alpha1-awq-4bit">4bits 的量化模型</a>，另一個是 <a href="https://ollama.com/weilin1205/llama3-taide-lx-8b-chat-alpha1-fp16">FP16的原模型</a>，連結過去有詳細的模型介紹卡可以參考，這邊我們使用 4bits 模型來示範。剛剛 Step 1. 安裝完成後可以直接輸入以下指令。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ollama run weilin1205/llama3-taide-lx-8b-chat-alpha1-awq-4bit</span><br></pre></td></tr></table></figure><details class="folding-tag" blue><summary> FP16模型下載指令(建議您的設備VRAM需大於16GB) </summary>              <div class='content'>              <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ollama run weilin1205/llama3-taide-lx-8b-chat-alpha1-fp16</span><br></pre></td></tr></table></figure>              </div>            </details><h2 id="Step-3-先離開聊天互動模式">Step 3. 先離開聊天互動模式</h2><p>模型下載成功後您會進到聊天互動介面，您可以先跟模型互動看看，互動完後直接輸入以下指令關掉。接下來我們要部屬前端介面了。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\<span class="built_in">bye</span></span><br></pre></td></tr></table></figure><h2 id="Step-4-使用-Open-WebUI-部屬前端介面">Step 4. 使用 Open WebUI 部屬前端介面</h2><p>以下使用 Docker來部屬，還沒裝過 Docker的可以參考<a href="https://weilin1205.github.io/posts/docker/">我之前寫過的文章安裝(也是詳細的逐步教學，把該文章中的Step1.走完就好)</a>，以下 Docker指令已經很好地封裝了您前端介面的部屬，直接輸入然後等待安裝完成即可。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker run -it --<span class="built_in">rm</span> --network=host --add-host=host.docker.internal:host-gateway -e PORT=9090 -e OLLAMA_BASE_URL=http://127.0.0.1:11434 ghcr.io/open-webui/open-webui:main</span><br></pre></td></tr></table></figure><h2 id="Step-5-前往網頁瀏覽器輸入以下網址，恭喜您的本地端生成式AI完成布署">Step 5. 前往網頁瀏覽器輸入以下網址，恭喜您的本地端生成式AI完成布署</h2><ul><li>網址輸入後您會進入到登入的介面，您只要直接 Sign Up 一組簡單的帳號密碼，就可以進去聊天介面了。</li><li>進入到介面後，聊天前先選一個模型即可開始與您的本地端模型聊天。</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://localhost:9090</span><br></pre></td></tr></table></figure><p><img src="https://i.imgur.com/NRh5zuz.png" alt="Image2"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> LLM </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> LLM </tag>
+            
+            <tag> Ollama </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>評論區部屬：使用 Twikoo + Vercel + Gmail SMTP</title>
       <link href="/posts/23086c2f/"/>
       <url>/posts/23086c2f/</url>

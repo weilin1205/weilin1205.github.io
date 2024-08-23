@@ -15,8 +15,31 @@
     <atom:link href="https://weilin1205.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>👨‍💻 Software Engineer 👨‍💻</description>
-    <pubDate>Mon, 19 Aug 2024 17:18:26 GMT</pubDate>
+    <pubDate>Fri, 23 Aug 2024 11:13:56 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>本地端部屬生成式AI：使用 Ollama+Open WebUI 部屬繁中 TAIDE 模型</title>
+      <link>https://weilin1205.github.io/posts/290592c4/</link>
+      <guid>https://weilin1205.github.io/posts/290592c4/</guid>
+      <pubDate>Fri, 23 Aug 2024 10:30:04 GMT</pubDate>
+      
+      <description>🎈Ollama+Open WebUI 部屬繁中 TAIDE 模型</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/LLM/">LLM</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/LLM/">LLM</category>
+      
+      <category domain="https://weilin1205.github.io/tags/Ollama/">Ollama</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/290592c4/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>評論區部屬：使用 Twikoo + Vercel + Gmail SMTP</title>
