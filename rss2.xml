@@ -15,11 +15,32 @@
     <atom:link href="https://weilin1205.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>👨‍💻 Software Engineer 👨‍💻</description>
-    <pubDate>Fri, 23 Aug 2024 11:13:56 GMT</pubDate>
+    <pubDate>Mon, 02 Sep 2024 20:40:11 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>本地端部屬生成式AI：使用 Ollama+Open WebUI 部屬繁中 TAIDE 模型</title>
+      <title>How to Fix the &#39;Package caption Warning&#39; in LaTeX: A Complete Guide</title>
+      <link>https://weilin1205.github.io/posts/c0495fae/</link>
+      <guid>https://weilin1205.github.io/posts/c0495fae/</guid>
+      <pubDate>Mon, 02 Sep 2024 14:00:04 GMT</pubDate>
+      
+      <description>⚒️Fix the &#39;Package caption Warning&#39; in LaTeX</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/LaTeX/">LaTeX</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/LaTeX/">LaTeX</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/c0495fae/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>本地端部署生成式AI：使用 Ollama+Open WebUI 打造你的私人助理</title>
       <link>https://weilin1205.github.io/posts/290592c4/</link>
       <guid>https://weilin1205.github.io/posts/290592c4/</guid>
       <pubDate>Fri, 23 Aug 2024 10:30:04 GMT</pubDate>

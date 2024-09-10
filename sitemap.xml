@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://weilin1205.github.io/tags/</loc>
+    <loc>https://weilin1205.github.io/personal/about/</loc>
     
-    <lastmod>2024-08-27</lastmod>
+    <lastmod>2024-09-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://weilin1205.github.io/posts/c0495fae/</loc>
+    
+    <lastmod>2024-09-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,16 +22,16 @@
   <url>
     <loc>https://weilin1205.github.io/posts/290592c4/</loc>
     
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://weilin1205.github.io/personal/about/</loc>
+    <loc>https://weilin1205.github.io/tags/</loc>
     
-    <lastmod>2024-08-23</lastmod>
+    <lastmod>2024-08-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -400,7 +409,7 @@
 
   <url>
     <loc>https://weilin1205.github.io/</loc>
-    <lastmod>2024-08-27</lastmod>
+    <lastmod>2024-09-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

@@ -6,7 +6,7 @@
   <link href="https://weilin1205.github.io/atom.xml" rel="self"/>
   
   <link href="https://weilin1205.github.io/"/>
-  <updated>2024-08-23T11:13:56.983Z</updated>
+  <updated>2024-09-02T20:40:11.507Z</updated>
   <id>https://weilin1205.github.io/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>本地端部屬生成式AI：使用 Ollama+Open WebUI 部屬繁中 TAIDE 模型</title>
+    <title>How to Fix the &#39;Package caption Warning&#39; in LaTeX: A Complete Guide</title>
+    <link href="https://weilin1205.github.io/posts/c0495fae/"/>
+    <id>https://weilin1205.github.io/posts/c0495fae/</id>
+    <published>2024-09-02T14:00:04.000Z</published>
+    <updated>2024-09-02T20:40:11.507Z</updated>
+    
+    
+    <summary type="html">⚒️Fix the &#39;Package caption Warning&#39; in LaTeX</summary>
+    
+    
+    
+    <category term="LaTeX" scheme="https://weilin1205.github.io/categories/LaTeX/"/>
+    
+    
+    <category term="LaTeX" scheme="https://weilin1205.github.io/tags/LaTeX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>本地端部署生成式AI：使用 Ollama+Open WebUI 打造你的私人助理</title>
     <link href="https://weilin1205.github.io/posts/290592c4/"/>
     <id>https://weilin1205.github.io/posts/290592c4/</id>
     <published>2024-08-23T10:30:04.000Z</published>
-    <updated>2024-08-23T11:13:56.983Z</updated>
+    <updated>2024-08-29T12:37:29.409Z</updated>
     
     
     <summary type="html">🎈Ollama+Open WebUI 部屬繁中 TAIDE 模型</summary>
