@@ -2918,7 +2918,7 @@ function setColor(c) {
 }
 
 
-// 星空背景开关
+// 星空背景開關
 if (localStorage.getItem("universe") == undefined) {
   localStorage.setItem("universe", "block");
 }
@@ -2935,7 +2935,7 @@ function setUniverse() {
   }
 }
 
-// 雪花开关
+// 雪花開關
 if (localStorage.getItem("snow") == undefined) {
   localStorage.setItem("snow", "none");
 }
@@ -2951,7 +2951,7 @@ function setSnow() {
 }
 
 
-// 帧率监测开关
+// FPS監測開關
 if (localStorage.getItem("fpson") == undefined) {
   localStorage.setItem("fpson", "1");
 }
@@ -3449,8 +3449,7 @@ function createWinbox() {
             </details>
 
 <br>
-<div class="note warning modern"><p>本站為非商業、非盈利性質的網站，僅限用於個人學習交流，無商業使用，如圖片或字體有侵權，請立即聯繫本站刪除，謝謝！<br>
-This website operates on a non-commercial and non-profit basis, serving exclusively for personal learning and communication purposes. In the event of any infringement related to images or fonts, we kindly request that you promptly contact us for removal. Thank you!</p>
+<div class="note warning modern"><p>本站為非商業、非盈利性質的網站，僅限用於個人學習交流，無商業使用，如圖片或字體有侵權，請立即聯繫本站刪除，謝謝！<br>This website operates on a non-commercial and non-profit basis, serving exclusively for personal learning and communication purposes. In the event of any infringement related to images or fonts, we kindly request that you promptly contact us for removal. Thank you!</p>
 </div>
 <center><div style="font-size:1.2em;color:var(--theme-color);font-weight:bold;">------ ( •̀ ω •́ )y 滑到底啦 ------</div></center>
 <br>

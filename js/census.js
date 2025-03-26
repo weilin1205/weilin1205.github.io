@@ -88,7 +88,7 @@ function mapChart() {
   });
 }
 
-// 访问趋势
+// 訪問趨勢
 function trendsChart() {
   let script = document.createElement("script")
   let paramUrl = '&start_date=' + start_date + '&end_date=' + end_date + '&metrics=' + metrics + '&method=trend/time/a&gran=month'
