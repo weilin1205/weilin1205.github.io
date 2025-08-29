@@ -2458,7 +2458,7 @@ if (m == 5 && dd == 4) {//青年節
 }
 if (m == 5 && dd == 20) {//520
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("今天是520情人節\n快和你喜歡的人一起過吧！💑");
+    Swal.fire("今天是520情人節\n快和喜歡的人一起過吧！❤️");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
