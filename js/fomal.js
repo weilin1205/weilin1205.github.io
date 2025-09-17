@@ -2462,7 +2462,7 @@ if (m == 5 && dd == 20) {//520
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
-if (m == 9 && dd == 10) {//教師節
+if (m == 9 && dd == 28) {//教師節
   if (sessionStorage.getItem("isPopupWindow") != "1") {
     Swal.fire("各位老師們教師節快樂！👩‍🏫");
     sessionStorage.setItem("isPopupWindow", "1");

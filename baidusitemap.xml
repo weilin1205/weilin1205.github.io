@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://weilin1205.github.io/posts/../2022/07/28/UVa/CPEbasic/</loc>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+  <url>
     <loc>https://weilin1205.github.io/posts/c0495fae/</loc>
     <lastmod>2024-09-10</lastmod>
   </url>
@@ -51,10 +55,6 @@
   <url>
     <loc>https://weilin1205.github.io/posts/LeetCode-9-Palindrome-Number/</loc>
     <lastmod>2024-06-02</lastmod>
-  </url>
-  <url>
-    <loc>https://weilin1205.github.io/posts/../2022/07/28/UVa/CPEbasic/</loc>
-    <lastmod>2024-06-01</lastmod>
   </url>
   <url>
     <loc>https://weilin1205.github.io/posts/uva10107/</loc>
