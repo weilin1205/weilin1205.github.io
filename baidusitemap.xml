@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://weilin1205.github.io/posts/setconda/</loc>
+    <lastmod>2026-01-01</lastmod>
+  </url>
+  <url>
     <loc>https://weilin1205.github.io/posts/../2022/07/28/UVa/CPEbasic/</loc>
     <lastmod>2025-06-01</lastmod>
   </url>
@@ -147,9 +151,5 @@
   <url>
     <loc>https://weilin1205.github.io/posts/linuxpython/</loc>
     <lastmod>2023-12-31</lastmod>
-  </url>
-  <url>
-    <loc>https://weilin1205.github.io/posts/setconda/</loc>
-    <lastmod>2023-12-30</lastmod>
   </url>
 </urlset> 

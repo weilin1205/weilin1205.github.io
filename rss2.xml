@@ -15,8 +15,33 @@
     <atom:link href="https://weilin1205.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>👨‍💻 Software Engineer 👨‍💻</description>
-    <pubDate>Tue, 10 Sep 2024 23:04:28 GMT</pubDate>
+    <pubDate>Thu, 01 Jan 2026 13:01:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Setting Up Anaconda: Installation and Environment Configuration Guide</title>
+      <link>https://weilin1205.github.io/posts/setconda/</link>
+      <guid>https://weilin1205.github.io/posts/setconda/</guid>
+      <pubDate>Thu, 01 Jan 2026 13:01:00 GMT</pubDate>
+      
+      <description>🛠️Setting Up Anaconda: Installation and Environment Configuration Guide</description>
+      
+      
+      
+      
+      <category domain="https://weilin1205.github.io/categories/Anaconda/">Anaconda</category>
+      
+      
+      <category domain="https://weilin1205.github.io/tags/Linux/">Linux</category>
+      
+      <category domain="https://weilin1205.github.io/tags/Anaconda/">Anaconda</category>
+      
+      <category domain="https://weilin1205.github.io/tags/Ubuntu/">Ubuntu</category>
+      
+      
+      <comments>https://weilin1205.github.io/posts/setconda/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>How to Fix the &#39;Package caption Warning&#39; in LaTeX: A Complete Guide</title>
@@ -218,29 +243,6 @@
       
       
       <comments>https://weilin1205.github.io/posts/linuxpython/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Setting Up Anaconda: Installation and Environment Configuration Guide</title>
-      <link>https://weilin1205.github.io/posts/setconda/</link>
-      <guid>https://weilin1205.github.io/posts/setconda/</guid>
-      <pubDate>Thu, 28 Dec 2023 13:52:04 GMT</pubDate>
-      
-      <description>🛠️Setting Up Anaconda: Installation and Environment Configuration Guide</description>
-      
-      
-      
-      
-      <category domain="https://weilin1205.github.io/categories/Anaconda/">Anaconda</category>
-      
-      
-      <category domain="https://weilin1205.github.io/tags/Linux/">Linux</category>
-      
-      <category domain="https://weilin1205.github.io/tags/Anaconda/">Anaconda</category>
-      
-      
-      <comments>https://weilin1205.github.io/posts/setconda/#disqus_thread</comments>
       
     </item>
     
