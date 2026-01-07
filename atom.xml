@@ -6,7 +6,7 @@
   <link href="https://weilin1205.github.io/atom.xml" rel="self"/>
   
   <link href="https://weilin1205.github.io/"/>
-  <updated>2026-01-01T13:01:00.000Z</updated>
+  <updated>2026-01-07T13:01:00.000Z</updated>
   <id>https://weilin1205.github.io/</id>
   
   <author>
@@ -17,14 +17,14 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Setting Up Anaconda: Installation and Environment Configuration Guide</title>
+    <title>How to Install Anaconda &amp; Miniconda on Ubuntu: A Complete Guide</title>
     <link href="https://weilin1205.github.io/posts/setconda/"/>
     <id>https://weilin1205.github.io/posts/setconda/</id>
     <published>2026-01-01T13:01:00.000Z</published>
-    <updated>2026-01-01T13:01:00.000Z</updated>
+    <updated>2026-01-07T13:01:00.000Z</updated>
     
     
-    <summary type="html">🛠️Setting Up Anaconda: Installation and Environment Configuration Guide</summary>
+    <summary type="html">🛠️ A step-by-step guide to installing Anaconda and Miniconda on Ubuntu</summary>
     
     
     
@@ -244,14 +244,14 @@
   </entry>
   
   <entry>
-    <title>LeetCode 198 - House Robber</title>
-    <link href="https://weilin1205.github.io/posts/LeetCode-198-House-Robber/"/>
-    <id>https://weilin1205.github.io/posts/LeetCode-198-House-Robber/</id>
+    <title>LeetCode 120 - Triangle</title>
+    <link href="https://weilin1205.github.io/posts/LeetCode-120-Triangle/"/>
+    <id>https://weilin1205.github.io/posts/LeetCode-120-Triangle/</id>
     <published>2023-09-30T04:12:05.000Z</published>
-    <updated>2024-01-23T17:31:59.586Z</updated>
+    <updated>2024-01-23T17:31:51.663Z</updated>
     
     
-    <summary type="html">🚩LeetCode 198 - House Robber Accepted Solutions</summary>
+    <summary type="html">🚩LeetCode 120 - Triangle Accepted Solutions</summary>
     
     
     
@@ -263,14 +263,14 @@
   </entry>
   
   <entry>
-    <title>LeetCode 120 - Triangle</title>
-    <link href="https://weilin1205.github.io/posts/LeetCode-120-Triangle/"/>
-    <id>https://weilin1205.github.io/posts/LeetCode-120-Triangle/</id>
+    <title>LeetCode 198 - House Robber</title>
+    <link href="https://weilin1205.github.io/posts/LeetCode-198-House-Robber/"/>
+    <id>https://weilin1205.github.io/posts/LeetCode-198-House-Robber/</id>
     <published>2023-09-30T04:12:05.000Z</published>
-    <updated>2024-01-23T17:31:51.663Z</updated>
+    <updated>2024-01-23T17:31:59.586Z</updated>
     
     
-    <summary type="html">🚩LeetCode 120 - Triangle Accepted Solutions</summary>
+    <summary type="html">🚩LeetCode 198 - House Robber Accepted Solutions</summary>
     
     
     
