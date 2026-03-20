@@ -3149,8 +3149,8 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://raw.githubusercontent.com/weilin1205/weilin1205.github.io/master/assets/ACG002.webp);
-    --darkmode-bg:url(https://raw.githubusercontent.com/weilin1205/weilin1205.github.io/master/assets/ACG002.webp);
+    --default-bg: url(https://file.vidhubfile.com/imgtok/post/d6SQ6w/f_001.jpg);
+    --darkmode-bg:url(https://file.vidhubfile.com/imgtok/post/d6SQ6w/f_001.jpg);
     --mobileday-bg: url(https://sourcebucket.s3.bitiful.net/img/snow.webp);
     --mobilenight-bg: url(https://sourcebucket.s3.bitiful.net/img/mb8.webp);
   }`;
